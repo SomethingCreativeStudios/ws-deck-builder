@@ -1,16 +1,14 @@
 <template>
-  <div class="ws-deck-search">
-    
-  </div>
+  <div class="ws-deck-results"></div>
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from "vue";
+import { defineComponent } from "vue";
 import InputText from "primevue/inputtext";
 import ToggleButton from "primevue/togglebutton";
 
 export default defineComponent({
-  name: "ws-deck-search",
+  name: "ws-deck-results",
   components: { InputText, ToggleButton },
   setup() {
     return {};
@@ -18,4 +16,7 @@ export default defineComponent({
 });
 </script>
 
-<style scoped></style>
+<style lang="scss" scoped>
+.ws-deck-results {
+}
+</style>
