@@ -1,3 +1,3 @@
-import WSDeckResults from "./WSDeckResults.vue";
+import WsDeckResults from "./WsDeckResults.vue";
 
-export default WSDeckResults;
+export default WsDeckResults;

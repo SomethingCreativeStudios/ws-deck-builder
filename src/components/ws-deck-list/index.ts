@@ -1,3 +1,3 @@
-import WSDeckList from "./WSDeckList.vue";
+import WsDeckList from "./WsDeckList.vue";
 
-export default WSDeckList;
+export default WsDeckList;

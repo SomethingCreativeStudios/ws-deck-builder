@@ -1,3 +1,3 @@
-import WSDeckBuilder from "./WSDeckBuilder.vue";
+import WsDeckBuilder from "./WsDeckBuilder.vue";
 
-export default WSDeckBuilder;
+export default WsDeckBuilder;

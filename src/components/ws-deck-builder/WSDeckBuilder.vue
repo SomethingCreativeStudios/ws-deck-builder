@@ -7,28 +7,27 @@
 </template>
 
 <script lang="ts">
-
-import { defineComponent } from "vue";
-import WSDeckList from "../ws-deck-list/WSDeckList.vue";
-import WSDeckResults from "../ws-deck-results/WSDeckResults.vue";
-import WSDeckSearch from "../ws-deck-search/WSDeckSearch.vue";
+import { defineComponent, ref } from 'vue';
+import WSDeckList from '../ws-deck-list/WsDeckList.vue';
+import WSDeckResults from '../ws-deck-results/WsDeckResults.vue';
+import WSDeckSearch from '../ws-deck-search/WsDeckSearch.vue';
 
 export default defineComponent({
-  name: "ws-deck-builder",
+  name: 'ws-deck-builder',
   components: { WSDeckSearch, WSDeckList, WSDeckResults },
   setup() {
     return {};
-  },
+  }
 });
 </script>
 
-<style lang="scss" >
+<style lang="scss">
 .ws-deck-builder {
   display: grid;
 
   grid-template-areas:
-    "search search results"
-    "list   list   results";
+    'search search results'
+    'list   list   results';
 
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;

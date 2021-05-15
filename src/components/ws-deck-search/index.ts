@@ -1,3 +1,3 @@
-import WSDeckSearch from './WSDeckSearch.vue';
+import WsDeckSearch from './WsDeckSearch.vue';
 
-export default WSDeckSearch;
+export default WsDeckSearch;

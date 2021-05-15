@@ -10,14 +10,16 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "watch": "vue-tsc --noEmit && vite build --watch",
+    "watch": "vite build --watch --development",
     "serve": "vite preview"
   },
   "dependencies": {
     "@vitejs/plugin-vue": "^1.2.2",
-    "@vitejs/plugin-vue-jsx": "^1.1.3",
-    "@vue/babel-plugin-jsx": "^1.0.5",
-    "vue": "^3.0.5"
+    "@vitejs/plugin-vue-jsx": "^1.1.4",
+    "@vue/babel-plugin-jsx": "^1.0.6",
+    "@vuedx/typescript-plugin-vue": "^0.6.3",
+    "vue": "^3.0.5",
+    "vue-window-size": "^1.1.2"
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.11",
@@ -25,8 +27,8 @@
     "primevue": "3.3.5",
     "sass": "^1.32.11",
     "typescript": "^4.1.3",
-    "vite": "^2.2.3",
+    "vite": "^2.2.4",
     "vite-aliases": "^0.6.3",
-    "vue-tsc": "^0.0.25"
+    "vue-tsc": "^0.1.2"
   }
 }
