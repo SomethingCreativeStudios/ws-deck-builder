@@ -1,34 +1,35 @@
 {
-  "name": "ws-deck-builder",
+  "name": "@ws/deck-builder",
   "version": "0.0.1",
   "files": [
-    "dist/",
-    "dist/style.css"
+    "public/deck-builder.es.js",
+    "public/style.css"
   ],
-  "main": "./dist/ws-deck-builder.es.js",
+  "main": "./public/deck-builder.es.js",
   "types": "src/types/index.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "watch": "vite build --watch --development",
+    "watch": "vite build --watch ",
     "serve": "vite preview"
   },
   "dependencies": {
-    "@vitejs/plugin-vue": "^1.2.2",
-    "@vitejs/plugin-vue-jsx": "^1.1.4",
-    "@vue/babel-plugin-jsx": "^1.0.6",
-    "@vuedx/typescript-plugin-vue": "^0.6.3",
-    "vue": "^3.0.5",
+    "@vitejs/plugin-vue": "^1.9.3",
+    "@vitejs/plugin-vue-jsx": "^1.2.0",
+    "@vue/babel-plugin-jsx": "^1.1.0",
+    "@vuedx/typescript-plugin-vue": "^0.7.4",
+    "vue": "3.2.20",
     "vue-window-size": "^1.1.2"
   },
   "devDependencies": {
-    "@vue/compiler-sfc": "^3.0.11",
+    "@vue/compiler-sfc": "^3.2.20",
     "primeicons": "^4.1.0",
-    "primevue": "3.3.5",
-    "sass": "^1.32.11",
-    "typescript": "^4.1.3",
-    "vite": "^2.2.4",
+    "primevue": "3.8.1",
+    "sass": "^1.43.2",
+    "typescript": "^4.4.4",
+    "vite": "2.6.7",
     "vite-aliases": "^0.6.3",
-    "vue-tsc": "^0.1.2"
+    "vite-plugin-style-import": "^1.2.1",
+    "vue-tsc": "0.28.6"
   }
 }

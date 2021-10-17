@@ -1,0 +1,7 @@
+.ws-min-max {
+  display: grid;
+
+  grid-template-areas:
+    'min       max'
+    'minInput  maxInput';
+}

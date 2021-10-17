@@ -1,1 +1,1 @@
-declare module "ws-deck-builder";
+declare module "@ws/deck-builder";

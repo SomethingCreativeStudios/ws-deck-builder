@@ -14,20 +14,20 @@
 
         <div class="ws-deck-search__body--color input-block">
           <label>Color</label>
-          <input-text></input-text>
+          <multi-select v-model="searchModel.colors" :optionLabel="'display'" :options="availableColors" :filter="true"></multi-select>
         </div>
         <div class="ws-deck-search__body--type input-block">
           <label>Type</label>
-          <input-text></input-text>
+          <multi-select v-model="searchModel.types" :optionLabel="'display'" :options="availableTypes" :filter="true"></multi-select>
         </div>
         <div class="ws-deck-search__body--trait input-block">
           <label>Trait</label>
-          <input-text></input-text>
+          <multi-select v-model="searchModel.traits" :optionLabel="'display'" :options="availableTraits" :filter="true"></multi-select>
         </div>
 
         <div class="ws-deck-search__body--level input-block">
           <label>Level</label>
-          <input-text></input-text>
+          <ws-min-max></ws-min-max>
         </div>
 
         <div class="ws-deck-search__body--cost input-block">
@@ -41,8 +41,8 @@
         </div>
 
         <div class="ws-deck-search__body--soul input-block">
-          <label>Soul</label>
-          <input-text></input-text>
+          <label>Souls</label>
+          <multi-select v-model="searchModel.souls" :optionLabel="'display'" :options="availableSouls" :filter="true"></multi-select>
         </div>
       </div>
     </template>
@@ -50,15 +50,38 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent, PropType, ref } from 'vue';
+import { SearchModel } from '../../types/search-model';
+import { OptionLabel } from '../../types/optionLabel';
+import { WsMinMax } from './components';
 import InputText from 'primevue/inputtext';
+import MultiSelect from 'primevue/multiselect';
 import Card from 'primevue/card';
 
 export default defineComponent({
   name: 'ws-deck-search',
-  components: { Card, InputText },
+  components: { Card, InputText, MultiSelect, WsMinMax },
+  props: {
+    availableColors: {
+      type: Array as PropType<OptionLabel<string>[]>,
+      default: () => []
+    },
+    availableSouls: {
+      type: Array as PropType<OptionLabel<string>[]>,
+      default: () => []
+    },
+    availableTraits: {
+      type: Array as PropType<OptionLabel<string>[]>,
+      default: () => []
+    },
+    availableTypes: {
+      type: Array as PropType<OptionLabel<string>[]>,
+      default: () => []
+    }
+  },
   setup() {
-    return {};
+    const searchModel = ref(new SearchModel());
+    return { searchModel };
   }
 });
 </script>
@@ -80,11 +103,9 @@ export default defineComponent({
 }
 
 .ws-deck-search__body--color {
-  grid-row: span 2;
 }
 
 .ws-deck-search__body--type {
-  grid-row: span 2;
 }
 
 .ws-deck-search__body--cost {

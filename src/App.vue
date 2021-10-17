@@ -3,15 +3,12 @@
     <ws-deck-builder></ws-deck-builder>
   </div>
 </template>
+
 <script lang="ts">
-import { defineComponent, ref } from 'vue';
+import { defineComponent } from 'vue';
 
 export default defineComponent({
-  components: {},
-  setup() {
-    const test = ref('test');
-    return { test };
-  }
+  components: {}
 });
 </script>
 
