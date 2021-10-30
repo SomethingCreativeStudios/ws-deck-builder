@@ -6,9 +6,10 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import {DetailedText } from '@ws/shared';
 
 export default defineComponent({
-  components: {}
+  components: {},
 });
 </script>
 
