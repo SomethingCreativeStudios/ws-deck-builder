@@ -16,19 +16,30 @@ export default defineComponent({
       default: ''
     }
   },
-  setup() {
-    const test = ref('test');
-    return { test };
-  },
+  setup() {},
   render() {
     return (
       <div class="ws-min-max">
-        <label>Min</label>
-        <input-text class="ws-min-max__min"></input-text>
-        <label>Max</label>
-        <input-text class="ws-min-max__max"></input-text>
+        <input-text class="ws-min-max--input ws-min-max__min" placeholder="min" type="number"></input-text>
+        <input-text class="ws-min-max--input ws-min-max__max" placeholder="max" type="number"></input-text>
       </div>
     );
   }
 });
 </script>
+
+<style lang="scss" scoped>
+.ws-min-max {
+  padding-left: 5px;
+  display: flex;
+}
+
+.ws-min-max--input {
+  width: 50%;
+}
+
+.ws-min-max--label {
+  width: 40px;
+  font-size: 10px;
+}
+</style>
