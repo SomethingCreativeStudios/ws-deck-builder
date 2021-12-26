@@ -18,6 +18,7 @@
     "@vitejs/plugin-vue-jsx": "^1.2.0",
     "@vue/babel-plugin-jsx": "^1.1.0",
     "@vuedx/typescript-plugin-vue": "^0.7.4",
+    "@ws/shared": "file:./../ws-shared",
     "vue": "3.2.20",
     "vue-window-size": "^1.1.2"
   },
