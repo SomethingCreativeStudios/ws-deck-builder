@@ -1,4 +1,6 @@
 var __defProp = Object.defineProperty;
+var __defProps = Object.defineProperties;
+var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
 var __getOwnPropSymbols = Object.getOwnPropertySymbols;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
 var __propIsEnum = Object.prototype.propertyIsEnumerable;
@@ -14,21 +16,26 @@ var __spreadValues = (a, b) => {
     }
   return a;
 };
+var __spreadProps = (a, b) => __defProps(a, __getOwnPropDescs(b));
 var __publicField = (obj, key, value) => {
   __defNormalProp(obj, typeof key !== "symbol" ? key + "" : key, value);
   return value;
 };
-import { openBlock, createBlock, defineComponent, ref, createVNode, createTextVNode, resolveComponent, renderSlot, Fragment, renderList, createCommentVNode, resolveDirective, toDisplayString, Teleport, Transition, withCtx, withDirectives, vModelText, mergeProps, createSlots, createElementVNode, pushScopeId, popScopeId, createElementBlock, reactive } from "vue";
+import { openBlock, createBlock, defineComponent, createVNode, resolveComponent, renderSlot, Fragment, renderList, createCommentVNode, resolveDirective, createTextVNode, toDisplayString, Teleport, Transition, withCtx, withDirectives, vModelText, mergeProps, createSlots, createElementBlock, ref, reactive } from "vue";
 class SearchModel {
   constructor() {
+    __publicField(this, "name", "");
     __publicField(this, "souls", []);
     __publicField(this, "types", []);
     __publicField(this, "colors", []);
     __publicField(this, "traits", []);
+    __publicField(this, "triggers", []);
+    this.name = "";
     this.souls = [];
     this.colors = [];
     this.traits = [];
     this.types = [];
+    this.triggers = [];
   }
 }
 var script$4 = {
@@ -56,7 +63,7 @@ function render$4(_ctx, _cache, $props, $setup, $data, $options) {
   }, null, 42, ["value"]);
 }
 script$4.render = render$4;
-var WsMinMax = "";
+var WsMinMax$1 = "";
 var _sfc_main$4 = defineComponent({
   name: "ws-multi-select",
   components: {
@@ -73,21 +80,29 @@ var _sfc_main$4 = defineComponent({
     }
   },
   setup() {
-    const test = ref("test");
-    return {
-      test
-    };
   },
   render() {
     return createVNode("div", {
       "class": "ws-min-max"
-    }, [createVNode("label", null, [createTextVNode("Min")]), createVNode(resolveComponent("input-text"), {
-      "class": "ws-min-max__min"
-    }, null), createVNode("label", null, [createTextVNode("Max")]), createVNode(resolveComponent("input-text"), {
-      "class": "ws-min-max__max"
+    }, [createVNode(resolveComponent("input-text"), {
+      "class": "ws-min-max--input ws-min-max__min",
+      "placeholder": "min",
+      "type": "number"
+    }, null), createVNode(resolveComponent("input-text"), {
+      "class": "ws-min-max--input ws-min-max__max",
+      "placeholder": "max",
+      "type": "number"
     }, null)]);
   }
 });
+var WsMinMax_vue_vue_type_style_index_0_scoped_true_lang = "";
+var _export_sfc = (sfc, props) => {
+  for (const [key, val] of props) {
+    sfc[key] = val;
+  }
+  return sfc;
+};
+var WsMinMax = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["__scopeId", "data-v-a9599696"]]);
 var DomHandler = {
   innerWidth(el) {
     let width = el.offsetWidth;
@@ -1430,7 +1445,7 @@ var script$3 = {
     }
   }
 };
-const _hoisted_1$7 = /* @__PURE__ */ createVNode("i", { class: "p-virtualscroller-loading-icon pi pi-spinner pi-spin" }, null, -1);
+const _hoisted_1$5 = /* @__PURE__ */ createVNode("i", { class: "p-virtualscroller-loading-icon pi pi-spinner pi-spin" }, null, -1);
 function render$3(_ctx, _cache, $props, $setup, $data, $options) {
   return !$props.disabled ? (openBlock(), createBlock("div", {
     key: 0,
@@ -1471,7 +1486,7 @@ function render$3(_ctx, _cache, $props, $setup, $data, $options) {
           key: index,
           options: $options.getLoaderOptions(index)
         }, () => [
-          _hoisted_1$7
+          _hoisted_1$5
         ]);
       }), 128))
     ], 2)) : createCommentVNode("", true)
@@ -2071,29 +2086,29 @@ var script$2 = {
     "VirtualScroller": script$3
   }
 };
-const _hoisted_1$6 = { class: "p-hidden-accessible" };
-const _hoisted_2$2 = { class: "p-multiselect-label-container" };
-const _hoisted_3$2 = { class: "p-multiselect-token-label" };
-const _hoisted_4$2 = { class: "p-multiselect-trigger" };
-const _hoisted_5$2 = {
+const _hoisted_1$4 = { class: "p-hidden-accessible" };
+const _hoisted_2$1 = { class: "p-multiselect-label-container" };
+const _hoisted_3$1 = { class: "p-multiselect-token-label" };
+const _hoisted_4$1 = { class: "p-multiselect-trigger" };
+const _hoisted_5$1 = {
   key: 0,
   class: "p-multiselect-header"
 };
-const _hoisted_6$2 = { class: "p-hidden-accessible" };
-const _hoisted_7$2 = {
+const _hoisted_6$1 = { class: "p-hidden-accessible" };
+const _hoisted_7$1 = {
   key: 1,
   class: "p-multiselect-filter-container"
 };
-const _hoisted_8$1 = /* @__PURE__ */ createVNode("span", { class: "p-multiselect-filter-icon pi pi-search" }, null, -1);
-const _hoisted_9$1 = /* @__PURE__ */ createVNode("span", { class: "p-multiselect-close-icon pi pi-times" }, null, -1);
-const _hoisted_10$1 = { class: "p-checkbox p-component" };
-const _hoisted_11$1 = { class: "p-multiselect-item-group" };
-const _hoisted_12$1 = { class: "p-checkbox p-component" };
-const _hoisted_13$1 = {
+const _hoisted_8 = /* @__PURE__ */ createVNode("span", { class: "p-multiselect-filter-icon pi pi-search" }, null, -1);
+const _hoisted_9 = /* @__PURE__ */ createVNode("span", { class: "p-multiselect-close-icon pi pi-times" }, null, -1);
+const _hoisted_10 = { class: "p-checkbox p-component" };
+const _hoisted_11 = { class: "p-multiselect-item-group" };
+const _hoisted_12 = { class: "p-checkbox p-component" };
+const _hoisted_13 = {
   key: 2,
   class: "p-multiselect-empty-message"
 };
-const _hoisted_14$1 = {
+const _hoisted_14 = {
   key: 3,
   class: "p-multiselect-empty-message"
 };
@@ -2105,7 +2120,7 @@ function render$2(_ctx, _cache, $props, $setup, $data, $options) {
     class: $options.containerClass,
     onClick: _cache[11] || (_cache[11] = (...args) => $options.onClick && $options.onClick(...args))
   }, [
-    createVNode("div", _hoisted_1$6, [
+    createVNode("div", _hoisted_1$4, [
       createVNode("input", {
         ref: "focusInput",
         type: "text",
@@ -2122,7 +2137,7 @@ function render$2(_ctx, _cache, $props, $setup, $data, $options) {
         "aria-labelledby": $props.ariaLabelledBy
       }, null, 40, ["id", "disabled", "tabindex", "aria-expanded", "aria-labelledby"])
     ]),
-    createVNode("div", _hoisted_2$2, [
+    createVNode("div", _hoisted_2$1, [
       createVNode("div", { class: $options.labelClass }, [
         renderSlot(_ctx.$slots, "value", {
           value: $props.modelValue,
@@ -2137,7 +2152,7 @@ function render$2(_ctx, _cache, $props, $setup, $data, $options) {
                 key: $options.getLabelByValue(item)
               }, [
                 renderSlot(_ctx.$slots, "chip", { value: item }, () => [
-                  createVNode("span", _hoisted_3$2, toDisplayString($options.getLabelByValue(item)), 1)
+                  createVNode("span", _hoisted_3$1, toDisplayString($options.getLabelByValue(item)), 1)
                 ]),
                 !$props.disabled ? (openBlock(), createBlock("span", {
                   key: 0,
@@ -2153,7 +2168,7 @@ function render$2(_ctx, _cache, $props, $setup, $data, $options) {
         ])
       ], 2)
     ]),
-    createVNode("div", _hoisted_4$2, [
+    createVNode("div", _hoisted_4$1, [
       renderSlot(_ctx.$slots, "indicator", {}, () => [
         createVNode("span", { class: $options.dropdownIconClass }, null, 2)
       ])
@@ -2179,7 +2194,7 @@ function render$2(_ctx, _cache, $props, $setup, $data, $options) {
               value: $props.modelValue,
               options: $options.visibleOptions
             }),
-            $props.showToggleAll && $props.selectionLimit == null || $props.filter ? (openBlock(), createBlock("div", _hoisted_5$2, [
+            $props.showToggleAll && $props.selectionLimit == null || $props.filter ? (openBlock(), createBlock("div", _hoisted_5$1, [
               $props.showToggleAll && $props.selectionLimit == null ? (openBlock(), createBlock("div", {
                 key: 0,
                 class: "p-checkbox p-component",
@@ -2187,7 +2202,7 @@ function render$2(_ctx, _cache, $props, $setup, $data, $options) {
                 role: "checkbox",
                 "aria-checked": $options.allSelected
               }, [
-                createVNode("div", _hoisted_6$2, [
+                createVNode("div", _hoisted_6$1, [
                   createVNode("input", {
                     type: "checkbox",
                     readonly: "",
@@ -2205,7 +2220,7 @@ function render$2(_ctx, _cache, $props, $setup, $data, $options) {
                   }, null, 2)
                 ], 10, ["aria-checked"])
               ], 8, ["aria-checked"])) : createCommentVNode("", true),
-              $props.filter ? (openBlock(), createBlock("div", _hoisted_7$2, [
+              $props.filter ? (openBlock(), createBlock("div", _hoisted_7$1, [
                 withDirectives(createVNode("input", {
                   type: "text",
                   ref: "filterInput",
@@ -2216,14 +2231,14 @@ function render$2(_ctx, _cache, $props, $setup, $data, $options) {
                 }, null, 40, ["placeholder"]), [
                   [vModelText, $data.filterValue]
                 ]),
-                _hoisted_8$1
+                _hoisted_8
               ])) : createCommentVNode("", true),
               withDirectives(createVNode("button", {
                 class: "p-multiselect-close p-link",
                 onClick: _cache[9] || (_cache[9] = (...args) => $options.onCloseClick && $options.onCloseClick(...args)),
                 type: "button"
               }, [
-                _hoisted_9$1
+                _hoisted_9
               ], 512), [
                 [_directive_ripple]
               ])
@@ -2255,7 +2270,7 @@ function render$2(_ctx, _cache, $props, $setup, $data, $options) {
                         tabindex: $props.tabindex || "0",
                         "aria-label": $options.getOptionLabel(option)
                       }, [
-                        createVNode("div", _hoisted_10$1, [
+                        createVNode("div", _hoisted_10, [
                           createVNode("div", {
                             class: ["p-checkbox-box", { "p-highlight": $options.isSelected(option) }]
                           }, [
@@ -2277,7 +2292,7 @@ function render$2(_ctx, _cache, $props, $setup, $data, $options) {
                       return openBlock(), createBlock(Fragment, {
                         key: $options.getOptionGroupRenderKey(optionGroup)
                       }, [
-                        createVNode("li", _hoisted_11$1, [
+                        createVNode("li", _hoisted_11, [
                           renderSlot(_ctx.$slots, "optiongroup", {
                             option: optionGroup,
                             index: $options.getOptionIndex(i, getItemOptions)
@@ -2296,7 +2311,7 @@ function render$2(_ctx, _cache, $props, $setup, $data, $options) {
                             tabindex: $props.tabindex || "0",
                             "aria-label": $options.getOptionLabel(option)
                           }, [
-                            createVNode("div", _hoisted_12$1, [
+                            createVNode("div", _hoisted_12, [
                               createVNode("div", {
                                 class: ["p-checkbox-box", { "p-highlight": $options.isSelected(option) }]
                               }, [
@@ -2317,11 +2332,11 @@ function render$2(_ctx, _cache, $props, $setup, $data, $options) {
                         }), 128))
                       ], 64);
                     }), 128)),
-                    $data.filterValue && (!items || items && items.length === 0) ? (openBlock(), createBlock("li", _hoisted_13$1, [
+                    $data.filterValue && (!items || items && items.length === 0) ? (openBlock(), createBlock("li", _hoisted_13, [
                       renderSlot(_ctx.$slots, "emptyfilter", {}, () => [
                         createTextVNode(toDisplayString($options.emptyFilterMessageText), 1)
                       ])
-                    ])) : !$props.options || $props.options && $props.options.length === 0 ? (openBlock(), createBlock("li", _hoisted_14$1, [
+                    ])) : !$props.options || $props.options && $props.options.length === 0 ? (openBlock(), createBlock("li", _hoisted_14, [
                       renderSlot(_ctx.$slots, "empty", {}, () => [
                         createTextVNode(toDisplayString($options.emptyMessageText), 1)
                       ])
@@ -2380,41 +2395,41 @@ script$2.render = render$2;
 var script$1 = {
   name: "Card"
 };
-const _hoisted_1$5 = { class: "p-card p-component" };
-const _hoisted_2$1 = {
+const _hoisted_1$3 = { class: "p-card p-component" };
+const _hoisted_2 = {
   key: 0,
   class: "p-card-header"
 };
-const _hoisted_3$1 = { class: "p-card-body" };
-const _hoisted_4$1 = {
+const _hoisted_3 = { class: "p-card-body" };
+const _hoisted_4 = {
   key: 0,
   class: "p-card-title"
 };
-const _hoisted_5$1 = {
+const _hoisted_5 = {
   key: 1,
   class: "p-card-subtitle"
 };
-const _hoisted_6$1 = { class: "p-card-content" };
-const _hoisted_7$1 = {
+const _hoisted_6 = { class: "p-card-content" };
+const _hoisted_7 = {
   key: 2,
   class: "p-card-footer"
 };
 function render$1(_ctx, _cache, $props, $setup, $data, $options) {
-  return openBlock(), createBlock("div", _hoisted_1$5, [
-    _ctx.$slots.header ? (openBlock(), createBlock("div", _hoisted_2$1, [
+  return openBlock(), createBlock("div", _hoisted_1$3, [
+    _ctx.$slots.header ? (openBlock(), createBlock("div", _hoisted_2, [
       renderSlot(_ctx.$slots, "header")
     ])) : createCommentVNode("", true),
-    createVNode("div", _hoisted_3$1, [
-      _ctx.$slots.title ? (openBlock(), createBlock("div", _hoisted_4$1, [
+    createVNode("div", _hoisted_3, [
+      _ctx.$slots.title ? (openBlock(), createBlock("div", _hoisted_4, [
         renderSlot(_ctx.$slots, "title")
       ])) : createCommentVNode("", true),
-      _ctx.$slots.subtitle ? (openBlock(), createBlock("div", _hoisted_5$1, [
+      _ctx.$slots.subtitle ? (openBlock(), createBlock("div", _hoisted_5, [
         renderSlot(_ctx.$slots, "subtitle")
       ])) : createCommentVNode("", true),
-      createVNode("div", _hoisted_6$1, [
+      createVNode("div", _hoisted_6, [
         renderSlot(_ctx.$slots, "content")
       ]),
-      _ctx.$slots.footer ? (openBlock(), createBlock("div", _hoisted_7$1, [
+      _ctx.$slots.footer ? (openBlock(), createBlock("div", _hoisted_7, [
         renderSlot(_ctx.$slots, "footer")
       ])) : createCommentVNode("", true)
     ])
@@ -2448,17 +2463,19 @@ function styleInject(css, ref2) {
 var css_248z = "\n.p-card-header img {\n    width: 100%;\n}\n";
 styleInject(css_248z);
 script$1.render = render$1;
-var WsDeckSearch_vue_vue_type_style_index_0_scoped_true_lang = "";
-var _export_sfc = (sfc, props) => {
-  for (const [key, val] of props) {
-    sfc[key] = val;
-  }
-  return sfc;
-};
-const _sfc_main$3 = defineComponent({
+var _sfc_main$3 = defineComponent({
   name: "ws-deck-search",
-  components: { Card: script$1, InputText: script$4, MultiSelect: script$2, WsMinMax: _sfc_main$4 },
+  components: {
+    Card: script$1,
+    InputText: script$4,
+    MultiSelect: script$2,
+    WsMinMax
+  },
   props: {
+    searchModel: {
+      type: Object,
+      default: () => new SearchModel()
+    },
     availableColors: {
       type: Array,
       default: () => []
@@ -2474,107 +2491,85 @@ const _sfc_main$3 = defineComponent({
     availableTypes: {
       type: Array,
       default: () => []
+    },
+    availableTriggers: {
+      type: Array,
+      default: () => []
     }
   },
-  setup() {
-    const searchModel = ref(new SearchModel());
-    return { searchModel };
+  render() {
+    const searchArea = createVNode("div", {
+      "class": "ws-deck-search__body"
+    }, [createVNode("div", {
+      "class": "ws-deck-search__body--name input-block"
+    }, [createVNode("label", null, [createTextVNode("Name")]), createVNode(resolveComponent("input-text"), {
+      "modelValue": this.searchModel.name,
+      "onInput": ($event) => this.$emit("update.searchModel", __spreadProps(__spreadValues({}, this.searchModel), {
+        name: $event
+      }))
+    }, null)]), createVNode("div", {
+      "class": "ws-deck-search__body--effect input-block"
+    }, [createVNode("label", null, [createTextVNode("Effect")]), createVNode(resolveComponent("input-text"), null, null)]), createVNode("div", {
+      "class": "ws-deck-search__body--color input-block"
+    }, [createVNode("label", null, [createTextVNode("Color")]), createVNode(resolveComponent("multi-select"), {
+      "modelValue": this.searchModel.colors,
+      "onUpdate:modelValue": ($event) => this.searchModel.colors = $event,
+      "optionLabel": "display",
+      "optionValue": "value",
+      "options": this.availableColors,
+      "filter": true
+    }, null)]), createVNode("div", {
+      "class": "ws-deck-search__body--type input-block"
+    }, [createVNode("label", null, [createTextVNode("Type")]), createVNode(resolveComponent("multi-select"), {
+      "modelValue": this.searchModel.types,
+      "onUpdate:modelValue": ($event) => this.searchModel.types = $event,
+      "optionLabel": "display",
+      "optionValue": "value",
+      "options": this.availableTypes,
+      "filter": true
+    }, null)]), createVNode("div", {
+      "class": "ws-deck-search__body--trait input-block"
+    }, [createVNode("label", null, [createTextVNode("Trait")]), createVNode(resolveComponent("multi-select"), {
+      "modelValue": this.searchModel.traits,
+      "onUpdate:modelValue": ($event) => this.searchModel.traits = $event,
+      "optionLabel": "display",
+      "optionValue": "value",
+      "options": this.availableTraits,
+      "filter": true
+    }, null)]), createVNode("div", {
+      "class": "ws-deck-search__body--triggers input-block"
+    }, [createVNode("label", null, [createTextVNode("Trigger")]), createVNode(resolveComponent("multi-select"), {
+      "modelValue": this.searchModel.triggers,
+      "onUpdate:modelValue": ($event) => this.searchModel.triggers = $event,
+      "optionLabel": "display",
+      "optionValue": "value",
+      "options": this.availableTriggers,
+      "filter": true
+    }, null)]), createVNode("div", {
+      "class": "ws-deck-search__body--level input-block"
+    }, [createVNode("label", null, [createTextVNode("Level")]), createVNode(resolveComponent("ws-min-max"), null, null)]), createVNode("div", {
+      "class": "ws-deck-search__body--cost input-block"
+    }, [createVNode("label", null, [createTextVNode("Cost")]), createVNode(resolveComponent("input-text"), null, null)]), createVNode("div", {
+      "class": "ws-deck-search__body--power input-block"
+    }, [createVNode("label", null, [createTextVNode("Power")]), createVNode(resolveComponent("input-text"), null, null)]), createVNode("div", {
+      "class": "ws-deck-search__body--soul input-block"
+    }, [createVNode("label", null, [createTextVNode("Souls")]), createVNode(resolveComponent("multi-select"), {
+      "modelValue": this.searchModel.souls,
+      "onUpdate:modelValue": ($event) => this.searchModel.souls = $event,
+      "optionLabel": "display",
+      "optionValue": "value",
+      "options": this.availableSouls,
+      "filter": true
+    }, null)])]);
+    return createVNode(resolveComponent("card"), {
+      "class": "ws-deck-search"
+    }, {
+      content: () => searchArea
+    });
   }
 });
-const _withScopeId = (n) => (pushScopeId("data-v-406524eb"), n = n(), popScopeId(), n);
-const _hoisted_1$4 = { class: "ws-deck-search__body" };
-const _hoisted_2 = { class: "ws-deck-search__body--name input-block" };
-const _hoisted_3 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createElementVNode("label", null, "Name", -1));
-const _hoisted_4 = { class: "ws-deck-search__body--effect input-block" };
-const _hoisted_5 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createElementVNode("label", null, "Effect", -1));
-const _hoisted_6 = { class: "ws-deck-search__body--color input-block" };
-const _hoisted_7 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createElementVNode("label", null, "Color", -1));
-const _hoisted_8 = { class: "ws-deck-search__body--type input-block" };
-const _hoisted_9 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createElementVNode("label", null, "Type", -1));
-const _hoisted_10 = { class: "ws-deck-search__body--trait input-block" };
-const _hoisted_11 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createElementVNode("label", null, "Trait", -1));
-const _hoisted_12 = { class: "ws-deck-search__body--level input-block" };
-const _hoisted_13 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createElementVNode("label", null, "Level", -1));
-const _hoisted_14 = { class: "ws-deck-search__body--cost input-block" };
-const _hoisted_15 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createElementVNode("label", null, "Cost", -1));
-const _hoisted_16 = { class: "ws-deck-search__body--power input-block" };
-const _hoisted_17 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createElementVNode("label", null, "Power", -1));
-const _hoisted_18 = { class: "ws-deck-search__body--soul input-block" };
-const _hoisted_19 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createElementVNode("label", null, "Souls", -1));
-function _sfc_render$3(_ctx, _cache, $props, $setup, $data, $options) {
-  const _component_input_text = resolveComponent("input-text");
-  const _component_multi_select = resolveComponent("multi-select");
-  const _component_ws_min_max = resolveComponent("ws-min-max");
-  const _component_card = resolveComponent("card");
-  return openBlock(), createBlock(_component_card, { class: "ws-deck-search" }, {
-    content: withCtx(() => [
-      createElementVNode("div", _hoisted_1$4, [
-        createElementVNode("div", _hoisted_2, [
-          _hoisted_3,
-          createVNode(_component_input_text)
-        ]),
-        createElementVNode("div", _hoisted_4, [
-          _hoisted_5,
-          createVNode(_component_input_text)
-        ]),
-        createElementVNode("div", _hoisted_6, [
-          _hoisted_7,
-          createVNode(_component_multi_select, {
-            modelValue: _ctx.searchModel.colors,
-            "onUpdate:modelValue": _cache[0] || (_cache[0] = ($event) => _ctx.searchModel.colors = $event),
-            optionLabel: "display",
-            options: _ctx.availableColors,
-            filter: true
-          }, null, 8, ["modelValue", "options"])
-        ]),
-        createElementVNode("div", _hoisted_8, [
-          _hoisted_9,
-          createVNode(_component_multi_select, {
-            modelValue: _ctx.searchModel.types,
-            "onUpdate:modelValue": _cache[1] || (_cache[1] = ($event) => _ctx.searchModel.types = $event),
-            optionLabel: "display",
-            options: _ctx.availableTypes,
-            filter: true
-          }, null, 8, ["modelValue", "options"])
-        ]),
-        createElementVNode("div", _hoisted_10, [
-          _hoisted_11,
-          createVNode(_component_multi_select, {
-            modelValue: _ctx.searchModel.traits,
-            "onUpdate:modelValue": _cache[2] || (_cache[2] = ($event) => _ctx.searchModel.traits = $event),
-            optionLabel: "display",
-            options: _ctx.availableTraits,
-            filter: true
-          }, null, 8, ["modelValue", "options"])
-        ]),
-        createElementVNode("div", _hoisted_12, [
-          _hoisted_13,
-          createVNode(_component_ws_min_max)
-        ]),
-        createElementVNode("div", _hoisted_14, [
-          _hoisted_15,
-          createVNode(_component_input_text)
-        ]),
-        createElementVNode("div", _hoisted_16, [
-          _hoisted_17,
-          createVNode(_component_input_text)
-        ]),
-        createElementVNode("div", _hoisted_18, [
-          _hoisted_19,
-          createVNode(_component_multi_select, {
-            modelValue: _ctx.searchModel.souls,
-            "onUpdate:modelValue": _cache[3] || (_cache[3] = ($event) => _ctx.searchModel.souls = $event),
-            optionLabel: "display",
-            options: _ctx.availableSouls,
-            filter: true
-          }, null, 8, ["modelValue", "options"])
-        ])
-      ])
-    ]),
-    _: 1
-  });
-}
-var WSDeckSearch = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["render", _sfc_render$3], ["__scopeId", "data-v-406524eb"]]);
+var WsDeckSearch_vue_vue_type_style_index_0_scoped_true_lang = "";
+var WSDeckSearch = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-7e01fcf5"]]);
 var script = {
   name: "ToggleButton",
   emits: ["update:modelValue", "change"],
@@ -2630,7 +2625,7 @@ var script = {
     "ripple": Ripple
   }
 };
-const _hoisted_1$3 = { class: "p-button-label" };
+const _hoisted_1$2 = { class: "p-button-label" };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _directive_ripple = resolveDirective("ripple");
   return withDirectives((openBlock(), createBlock("div", {
@@ -2644,7 +2639,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       key: 0,
       class: $options.iconClass
     }, null, 2)) : createCommentVNode("", true),
-    createVNode("span", _hoisted_1$3, toDisplayString($options.label), 1)
+    createVNode("span", _hoisted_1$2, toDisplayString($options.label), 1)
   ], 10, ["aria-checked", "tabindex"])), [
     [_directive_ripple]
   ]);
@@ -2658,11 +2653,11 @@ const _sfc_main$2 = defineComponent({
     return {};
   }
 });
-const _hoisted_1$2 = { class: "ws-deck-results" };
-function _sfc_render$2(_ctx, _cache, $props, $setup, $data, $options) {
-  return openBlock(), createElementBlock("div", _hoisted_1$2);
+const _hoisted_1$1 = { class: "ws-deck-results" };
+function _sfc_render$1(_ctx, _cache, $props, $setup, $data, $options) {
+  return openBlock(), createElementBlock("div", _hoisted_1$1);
 }
-var WSDeckResults = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["render", _sfc_render$2], ["__scopeId", "data-v-61b50470"]]);
+var WSDeckResults = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["render", _sfc_render$1], ["__scopeId", "data-v-61b50470"]]);
 var WsDeckList_vue_vue_type_style_index_0_scoped_true_lang = "";
 const _sfc_main$1 = defineComponent({
   name: "ws-deck-list",
@@ -2671,46 +2666,69 @@ const _sfc_main$1 = defineComponent({
     return {};
   }
 });
-const _hoisted_1$1 = { class: "ws-deck-list" };
-function _sfc_render$1(_ctx, _cache, $props, $setup, $data, $options) {
-  return openBlock(), createElementBlock("div", _hoisted_1$1);
+const _hoisted_1 = { class: "ws-deck-list" };
+function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
+  return openBlock(), createElementBlock("div", _hoisted_1);
 }
-var WsDeckList = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["render", _sfc_render$1], ["__scopeId", "data-v-902f63d8"]]);
-var WsDeckBuilder_vue_vue_type_style_index_0_lang = "";
-const _sfc_main = defineComponent({
+var WsDeckList = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["render", _sfc_render], ["__scopeId", "data-v-902f63d8"]]);
+var _sfc_main = defineComponent({
   name: "ws-deck-builder",
-  components: { WSDeckSearch, WSDeckList: WsDeckList, WSDeckResults },
+  components: {
+    WSDeckSearch,
+    WSDeckList: WsDeckList,
+    WSDeckResults
+  },
   setup() {
-    const souls = ref(["soul1", "soul2", "soul3", "soul4"].map((text) => ({ value: text, display: text })));
-    const traits = ref(["trait1", "trait2", "trait3", "trait4"].map((text) => ({ value: text, display: text })));
-    const types = ref(["type1", "type2", "type3", "type4"].map((text) => ({ value: text, display: text })));
-    const colors = ref(["yellow", "green", "red", "blue"].map((text) => ({ value: text, display: text })));
-    return { souls, traits, types, colors };
+    const searchModel = new SearchModel();
+    const souls = ref(["soul1", "soul2", "soul3", "soul4"].map((text) => ({
+      value: text,
+      display: text
+    })));
+    const traits = ref(["trait1", "trait2", "trait3", "trait4"].map((text) => ({
+      value: text,
+      display: text
+    })));
+    const types = ref(["type1", "type2", "type3", "type4"].map((text) => ({
+      value: text,
+      display: text
+    })));
+    const colors = ref(["yellow", "green", "red", "blue"].map((text) => ({
+      value: text,
+      display: text
+    })));
+    const triggers = ref(["coin", "bag", "soul", "double soul"].map((text) => ({
+      value: text,
+      display: text
+    })));
+    return {
+      searchModel,
+      souls,
+      traits,
+      types,
+      colors,
+      triggers
+    };
+  },
+  render() {
+    return createVNode("div", {
+      "class": "ws-deck-builder"
+    }, [createVNode(resolveComponent("ws-deck-search"), {
+      "searchModel": this.searchModel,
+      "availableSouls": this.souls,
+      "availableTraits": this.traits,
+      "availableTypes": this.types,
+      "availableColors": this.colors,
+      "availableTriggers": this.triggers
+    }, null), createVNode(resolveComponent("ws-deck-list"), null, null), createVNode(resolveComponent("ws-deck-results"), null, null)]);
   }
 });
-const _hoisted_1 = { class: "ws-deck-builder" };
-function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
-  const _component_ws_deck_search = resolveComponent("ws-deck-search");
-  const _component_ws_deck_list = resolveComponent("ws-deck-list");
-  const _component_ws_deck_results = resolveComponent("ws-deck-results");
-  return openBlock(), createElementBlock("div", _hoisted_1, [
-    createVNode(_component_ws_deck_search, {
-      availableSouls: _ctx.souls,
-      availableTraits: _ctx.traits,
-      availableTypes: _ctx.types,
-      availableColors: _ctx.colors
-    }, null, 8, ["availableSouls", "availableTraits", "availableTypes", "availableColors"]),
-    createVNode(_component_ws_deck_list),
-    createVNode(_component_ws_deck_results)
-  ]);
-}
-var WsDeckBuilder = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render]]);
+var WsDeckBuilder_vue_vue_type_style_index_0_lang = "";
 var components = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   WsDeckSearch: WSDeckSearch,
   WsDeckResults: WSDeckResults,
-  WsDeckBuilder,
+  WsDeckBuilder: _sfc_main,
   WsDeckList
 });
 const defaultOptions = {

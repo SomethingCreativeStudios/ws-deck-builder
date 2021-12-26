@@ -1,0 +1,20 @@
+{
+   "cards": JG.repeat(100, {
+  "name": {
+    "en": JG.random('CARD NAME', 'JOHN', 'LRIG', 'Chiyuri'),
+    "jp": JG.random('CARD NAME (JP)', 'JOHN (JP)', 'LRIG (JP)', 'Chiyuri (JP)'),
+  },
+
+  "color": JG.random('yellow', 'red', 'blue', 'green'),
+  "type": JG.random('character','event','climax'),
+  "level":  JG.random(0,1,2,3),
+  "cost": JG.random(1,2,3,4,5,6,7,8,9,10,11,12,13,14),
+  "power": JG.random(200,400,1000,1200,2000,100,400),
+  "soul": JG.random(1,1,1,1,2,2,3,3,3,4,4),
+  "trait": {
+    "en": JG.random([], ['Order', 'Guild'], ['Guild'], ['Human', 'Male'], ['Wizard'], ['Cat', 'Girl']),
+  },
+  "triggers": JG.random([],[],[],[],[],[], ['soul'], ['soul','soul'], ['door'], ['book'], ['gate'], ['shot']),
+  "text": JG.random('NOTHING', 'Action: Do Thing; Get THing', 'Gain 500', 'You Win', '[C] All your Characters gain +1000 Power and +1 Soul.')
+  })
+}
