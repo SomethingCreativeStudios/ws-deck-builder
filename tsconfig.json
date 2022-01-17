@@ -5,12 +5,22 @@
     "moduleResolution": "node",
     "strict": true,
     "jsx": "preserve",
+    "declaration": true,
+    "declarationMap": true,
     "sourceMap": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
+    "importHelpers": true,
+    "outDir": "dist",
     "lib": ["esnext", "dom"],
-    "types": ["vite/client"],
-    "plugins": [{ "name": "@vuedx/typescript-plugin-vue" }]
+    "types": ["vite/client", "node"],
+    "plugins": [{ "name": "@vuedx/typescript-plugin-vue" }],
+    "baseUrl": "./",
+    "paths": {
+      "~composables/*": ["composables/*"],
+      "~components/*": ["components/*"],
+      "~/*": ["src/*"]
+    }
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/components/ws-deck-search/components/index.ts"]
 }

@@ -2,1703 +2,2119 @@
   "cards": [
     {
       "name": {
-        "en": "Chiyuri",
+        "en": "Tucker",
         "jp": "JOHN (JP)"
       },
-      "color": "yellow",
-      "type": "event",
-      "level": 2,
-      "cost": 1,
-      "power": 200,
-      "soul": 1,
-      "trait": {
-        "en": ["Order", "Guild"]
-      },
-      "triggers": ["soul", "soul"],
-      "text": "You Win"
-    },
-    {
-      "name": {
-        "en": "Chiyuri",
-        "jp": "LRIG (JP)"
-      },
-      "color": "green",
-      "type": "event",
-      "level": 3,
-      "cost": 11,
-      "power": 1000,
-      "soul": 4,
-      "trait": {
-        "en": ["Wizard"]
-      },
-      "triggers": [],
-      "text": "Action: Do Thing; Get THing"
-    },
-    {
-      "name": {
-        "en": "LRIG",
-        "jp": "Chiyuri (JP)"
-      },
-      "color": "red",
-      "type": "event",
-      "level": 3,
-      "cost": 8,
-      "power": 400,
-      "soul": 1,
-      "trait": {
-        "en": ["Human", "Male"]
-      },
-      "triggers": ["soul", "soul"],
-      "text": "Action: Do Thing; Get THing"
-    },
-    {
-      "name": {
-        "en": "Chiyuri",
-        "jp": "CARD NAME (JP)"
-      },
-      "color": "blue",
-      "type": "climax",
-      "level": 3,
-      "cost": 11,
-      "power": 1200,
-      "soul": 1,
-      "trait": {
-        "en": ["Human", "Male"]
-      },
-      "triggers": [],
-      "text": "NOTHING"
-    },
-    {
-      "name": {
-        "en": "CARD NAME",
-        "jp": "JOHN (JP)"
-      },
-      "color": "green",
-      "type": "climax",
-      "level": 0,
-      "cost": 7,
-      "power": 2000,
-      "soul": 2,
-      "trait": {
-        "en": ["Human", "Male"]
-      },
-      "triggers": ["shot"],
-      "text": "Gain 500"
-    },
-    {
-      "name": {
-        "en": "CARD NAME",
-        "jp": "Chiyuri (JP)"
-      },
-      "color": "red",
-      "type": "event",
-      "level": 3,
-      "cost": 13,
-      "power": 2000,
-      "soul": 1,
-      "trait": {
-        "en": ["Human", "Male"]
-      },
-      "triggers": ["shot"],
-      "text": "You Win"
-    },
-    {
-      "name": {
-        "en": "LRIG",
-        "jp": "Chiyuri (JP)"
-      },
-      "color": "green",
-      "type": "event",
-      "level": 2,
-      "cost": 9,
-      "power": 2000,
-      "soul": 1,
-      "trait": {
-        "en": []
-      },
-      "triggers": ["shot"],
-      "text": "You Win"
-    },
-    {
-      "name": {
-        "en": "JOHN",
-        "jp": "Chiyuri (JP)"
-      },
-      "color": "blue",
-      "type": "climax",
-      "level": 1,
-      "cost": 4,
-      "power": 1000,
-      "soul": 2,
-      "trait": {
-        "en": ["Guild"]
-      },
-      "triggers": ["soul", "soul"],
-      "text": "You Win"
-    },
-    {
-      "name": {
-        "en": "LRIG",
-        "jp": "Chiyuri (JP)"
-      },
-      "color": "blue",
-      "type": "event",
-      "level": 0,
-      "cost": 9,
-      "power": 1000,
-      "soul": 1,
-      "trait": {
-        "en": ["Wizard"]
-      },
-      "triggers": ["shot"],
-      "text": "Action: Do Thing; Get THing"
-    },
-    {
-      "name": {
-        "en": "LRIG",
-        "jp": "LRIG (JP)"
-      },
-      "color": "green",
-      "type": "character",
-      "level": 1,
-      "cost": 3,
-      "power": 100,
-      "soul": 4,
-      "trait": {
-        "en": ["Cat", "Girl"]
-      },
-      "triggers": [],
-      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
-    },
-    {
-      "name": {
-        "en": "CARD NAME",
-        "jp": "LRIG (JP)"
-      },
-      "color": "green",
-      "type": "climax",
-      "level": 3,
-      "cost": 5,
-      "power": 400,
-      "soul": 4,
-      "trait": {
-        "en": ["Human", "Male"]
-      },
-      "triggers": [],
-      "text": "You Win"
-    },
-    {
-      "name": {
-        "en": "LRIG",
-        "jp": "LRIG (JP)"
-      },
-      "color": "red",
-      "type": "character",
-      "level": 0,
-      "cost": 8,
-      "power": 200,
-      "soul": 1,
-      "trait": {
-        "en": ["Human", "Male"]
-      },
-      "triggers": ["soul", "soul"],
-      "text": "Gain 500"
-    },
-    {
-      "name": {
-        "en": "LRIG",
-        "jp": "CARD NAME (JP)"
-      },
-      "color": "blue",
-      "type": "character",
-      "level": 3,
-      "cost": 9,
-      "power": 400,
-      "soul": 1,
-      "trait": {
-        "en": ["Guild"]
-      },
-      "triggers": ["soul", "soul"],
-      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
-    },
-    {
-      "name": {
-        "en": "Chiyuri",
-        "jp": "Chiyuri (JP)"
-      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
       "color": "blue",
       "type": "climax",
       "level": 0,
       "cost": 6,
-      "power": 2000,
-      "soul": 3,
-      "trait": {
-        "en": []
-      },
-      "triggers": ["book"],
-      "text": "NOTHING"
-    },
-    {
-      "name": {
-        "en": "CARD NAME",
-        "jp": "CARD NAME (JP)"
-      },
-      "color": "green",
-      "type": "character",
-      "level": 0,
-      "cost": 7,
-      "power": 1000,
-      "soul": 3,
-      "trait": {
-        "en": ["Human", "Male"]
-      },
-      "triggers": ["shot"],
-      "text": "NOTHING"
-    },
-    {
-      "name": {
-        "en": "LRIG",
-        "jp": "JOHN (JP)"
-      },
-      "color": "yellow",
-      "type": "event",
-      "level": 3,
-      "cost": 3,
-      "power": 2000,
-      "soul": 2,
-      "trait": {
-        "en": ["Order", "Guild"]
-      },
-      "triggers": ["door"],
-      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
-    },
-    {
-      "name": {
-        "en": "JOHN",
-        "jp": "Chiyuri (JP)"
-      },
-      "color": "blue",
-      "type": "climax",
-      "level": 3,
-      "cost": 14,
-      "power": 2000,
-      "soul": 3,
-      "trait": {
-        "en": ["Guild"]
-      },
-      "triggers": ["book"],
-      "text": "Gain 500"
-    },
-    {
-      "name": {
-        "en": "LRIG",
-        "jp": "CARD NAME (JP)"
-      },
-      "color": "green",
-      "type": "climax",
-      "level": 2,
-      "cost": 1,
-      "power": 400,
-      "soul": 2,
-      "trait": {
-        "en": ["Cat", "Girl"]
-      },
-      "triggers": ["soul"],
-      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
-    },
-    {
-      "name": {
-        "en": "JOHN",
-        "jp": "JOHN (JP)"
-      },
-      "color": "blue",
-      "type": "climax",
-      "level": 3,
-      "cost": 14,
-      "power": 1000,
-      "soul": 3,
-      "trait": {
-        "en": ["Wizard"]
-      },
-      "triggers": [],
-      "text": "NOTHING"
-    },
-    {
-      "name": {
-        "en": "CARD NAME",
-        "jp": "Chiyuri (JP)"
-      },
-      "color": "blue",
-      "type": "event",
-      "level": 2,
-      "cost": 2,
-      "power": 400,
-      "soul": 1,
-      "trait": {
-        "en": ["Human", "Male"]
-      },
-      "triggers": ["soul"],
-      "text": "You Win"
-    },
-    {
-      "name": {
-        "en": "LRIG",
-        "jp": "Chiyuri (JP)"
-      },
-      "color": "yellow",
-      "type": "climax",
-      "level": 2,
-      "cost": 2,
-      "power": 1200,
-      "soul": 3,
-      "trait": {
-        "en": []
-      },
-      "triggers": ["soul", "soul"],
-      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
-    },
-    {
-      "name": {
-        "en": "JOHN",
-        "jp": "Chiyuri (JP)"
-      },
-      "color": "yellow",
-      "type": "climax",
-      "level": 2,
-      "cost": 14,
-      "power": 400,
-      "soul": 1,
-      "trait": {
-        "en": ["Guild"]
-      },
-      "triggers": ["shot"],
-      "text": "NOTHING"
-    },
-    {
-      "name": {
-        "en": "JOHN",
-        "jp": "Chiyuri (JP)"
-      },
-      "color": "blue",
-      "type": "climax",
-      "level": 2,
-      "cost": 10,
-      "power": 1200,
-      "soul": 1,
-      "trait": {
-        "en": ["Guild"]
-      },
-      "triggers": ["shot"],
-      "text": "NOTHING"
-    },
-    {
-      "name": {
-        "en": "JOHN",
-        "jp": "Chiyuri (JP)"
-      },
-      "color": "red",
-      "type": "character",
-      "level": 1,
-      "cost": 10,
-      "power": 100,
-      "soul": 2,
-      "trait": {
-        "en": ["Guild"]
-      },
-      "triggers": ["shot"],
-      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
-    },
-    {
-      "name": {
-        "en": "LRIG",
-        "jp": "CARD NAME (JP)"
-      },
-      "color": "yellow",
-      "type": "event",
-      "level": 1,
-      "cost": 10,
-      "power": 1200,
-      "soul": 2,
-      "trait": {
-        "en": ["Human", "Male"]
-      },
-      "triggers": [],
-      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
-    },
-    {
-      "name": {
-        "en": "Chiyuri",
-        "jp": "CARD NAME (JP)"
-      },
-      "color": "blue",
-      "type": "event",
-      "level": 2,
-      "cost": 6,
-      "power": 1000,
-      "soul": 1,
-      "trait": {
-        "en": ["Human", "Male"]
-      },
-      "triggers": [],
-      "text": "You Win"
-    },
-    {
-      "name": {
-        "en": "JOHN",
-        "jp": "CARD NAME (JP)"
-      },
-      "color": "blue",
-      "type": "event",
-      "level": 2,
-      "cost": 2,
-      "power": 400,
-      "soul": 1,
-      "trait": {
-        "en": ["Wizard"]
-      },
-      "triggers": [],
-      "text": "Action: Do Thing; Get THing"
-    },
-    {
-      "name": {
-        "en": "Chiyuri",
-        "jp": "CARD NAME (JP)"
-      },
-      "color": "red",
-      "type": "character",
-      "level": 3,
-      "cost": 13,
-      "power": 400,
-      "soul": 1,
-      "trait": {
-        "en": ["Cat", "Girl"]
-      },
-      "triggers": ["book"],
-      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
-    },
-    {
-      "name": {
-        "en": "Chiyuri",
-        "jp": "LRIG (JP)"
-      },
-      "color": "red",
-      "type": "climax",
-      "level": 2,
-      "cost": 7,
-      "power": 1200,
-      "soul": 1,
-      "trait": {
-        "en": ["Cat", "Girl"]
-      },
-      "triggers": ["book"],
-      "text": "Gain 500"
-    },
-    {
-      "name": {
-        "en": "CARD NAME",
-        "jp": "CARD NAME (JP)"
-      },
-      "color": "blue",
-      "type": "climax",
-      "level": 3,
-      "cost": 5,
-      "power": 100,
-      "soul": 3,
-      "trait": {
-        "en": []
-      },
-      "triggers": ["gate"],
-      "text": "You Win"
-    },
-    {
-      "name": {
-        "en": "JOHN",
-        "jp": "CARD NAME (JP)"
-      },
-      "color": "blue",
-      "type": "character",
-      "level": 1,
-      "cost": 1,
-      "power": 100,
-      "soul": 1,
-      "trait": {
-        "en": ["Cat", "Girl"]
-      },
-      "triggers": ["door"],
-      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
-    },
-    {
-      "name": {
-        "en": "CARD NAME",
-        "jp": "LRIG (JP)"
-      },
-      "color": "yellow",
-      "type": "character",
-      "level": 3,
-      "cost": 14,
-      "power": 400,
-      "soul": 3,
-      "trait": {
-        "en": ["Guild"]
-      },
-      "triggers": [],
-      "text": "Gain 500"
-    },
-    {
-      "name": {
-        "en": "LRIG",
-        "jp": "LRIG (JP)"
-      },
-      "color": "red",
-      "type": "climax",
-      "level": 3,
-      "cost": 4,
-      "power": 1200,
-      "soul": 1,
-      "trait": {
-        "en": ["Cat", "Girl"]
-      },
-      "triggers": ["gate"],
-      "text": "Action: Do Thing; Get THing"
-    },
-    {
-      "name": {
-        "en": "Chiyuri",
-        "jp": "Chiyuri (JP)"
-      },
-      "color": "green",
-      "type": "character",
-      "level": 1,
-      "cost": 12,
-      "power": 200,
-      "soul": 3,
-      "trait": {
-        "en": []
-      },
-      "triggers": [],
-      "text": "Action: Do Thing; Get THing"
-    },
-    {
-      "name": {
-        "en": "CARD NAME",
-        "jp": "JOHN (JP)"
-      },
-      "color": "red",
-      "type": "character",
-      "level": 1,
-      "cost": 5,
-      "power": 200,
-      "soul": 1,
-      "trait": {
-        "en": []
-      },
-      "triggers": [],
-      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
-    },
-    {
-      "name": {
-        "en": "LRIG",
-        "jp": "LRIG (JP)"
-      },
-      "color": "red",
-      "type": "character",
-      "level": 0,
-      "cost": 9,
-      "power": 200,
-      "soul": 3,
-      "trait": {
-        "en": ["Cat", "Girl"]
-      },
-      "triggers": ["door"],
-      "text": "Gain 500"
-    },
-    {
-      "name": {
-        "en": "Chiyuri",
-        "jp": "LRIG (JP)"
-      },
-      "color": "red",
-      "type": "event",
-      "level": 3,
-      "cost": 5,
-      "power": 400,
-      "soul": 1,
-      "trait": {
-        "en": ["Guild"]
-      },
-      "triggers": ["book"],
-      "text": "You Win"
-    },
-    {
-      "name": {
-        "en": "LRIG",
-        "jp": "JOHN (JP)"
-      },
-      "color": "yellow",
-      "type": "climax",
-      "level": 2,
-      "cost": 13,
       "power": 400,
       "soul": 4,
       "trait": {
-        "en": ["Human", "Male"]
+        "en": [
+          "Guild"
+        ]
       },
-      "triggers": ["book"],
-      "text": "Action: Do Thing; Get THing"
-    },
-    {
-      "name": {
-        "en": "JOHN",
-        "jp": "JOHN (JP)"
-      },
-      "color": "red",
-      "type": "character",
-      "level": 1,
-      "cost": 4,
-      "power": 400,
-      "soul": 1,
-      "trait": {
-        "en": ["Human", "Male"]
-      },
-      "triggers": ["shot"],
+      "triggers": [
+        "book"
+      ],
       "text": "Gain 500"
     },
     {
       "name": {
-        "en": "Chiyuri",
-        "jp": "Chiyuri (JP)"
+        "en": "Calderon",
+        "jp": "CARD NAME (JP)"
       },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
       "color": "red",
-      "type": "climax",
-      "level": 2,
-      "cost": 1,
-      "power": 1200,
-      "soul": 2,
-      "trait": {
-        "en": ["Human", "Male"]
-      },
-      "triggers": [],
-      "text": "NOTHING"
-    },
-    {
-      "name": {
-        "en": "JOHN",
-        "jp": "JOHN (JP)"
-      },
-      "color": "blue",
       "type": "event",
-      "level": 1,
-      "cost": 12,
-      "power": 200,
-      "soul": 3,
-      "trait": {
-        "en": ["Cat", "Girl"]
-      },
-      "triggers": ["gate"],
-      "text": "You Win"
-    },
-    {
-      "name": {
-        "en": "Chiyuri",
-        "jp": "CARD NAME (JP)"
-      },
-      "color": "yellow",
-      "type": "character",
-      "level": 0,
-      "cost": 14,
-      "power": 100,
-      "soul": 1,
-      "trait": {
-        "en": ["Wizard"]
-      },
-      "triggers": ["door"],
-      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
-    },
-    {
-      "name": {
-        "en": "Chiyuri",
-        "jp": "CARD NAME (JP)"
-      },
-      "color": "green",
-      "type": "climax",
-      "level": 1,
-      "cost": 6,
-      "power": 200,
-      "soul": 3,
-      "trait": {
-        "en": ["Order", "Guild"]
-      },
-      "triggers": [],
-      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
-    },
-    {
-      "name": {
-        "en": "JOHN",
-        "jp": "LRIG (JP)"
-      },
-      "color": "blue",
-      "type": "character",
-      "level": 0,
-      "cost": 3,
-      "power": 400,
-      "soul": 2,
-      "trait": {
-        "en": []
-      },
-      "triggers": [],
-      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
-    },
-    {
-      "name": {
-        "en": "LRIG",
-        "jp": "LRIG (JP)"
-      },
-      "color": "yellow",
-      "type": "character",
-      "level": 3,
-      "cost": 12,
-      "power": 100,
-      "soul": 3,
-      "trait": {
-        "en": ["Human", "Male"]
-      },
-      "triggers": ["shot"],
-      "text": "Action: Do Thing; Get THing"
-    },
-    {
-      "name": {
-        "en": "CARD NAME",
-        "jp": "CARD NAME (JP)"
-      },
-      "color": "green",
-      "type": "character",
-      "level": 2,
-      "cost": 5,
-      "power": 200,
-      "soul": 1,
-      "trait": {
-        "en": ["Order", "Guild"]
-      },
-      "triggers": [],
-      "text": "You Win"
-    },
-    {
-      "name": {
-        "en": "LRIG",
-        "jp": "CARD NAME (JP)"
-      },
-      "color": "green",
-      "type": "event",
-      "level": 0,
-      "cost": 8,
-      "power": 100,
-      "soul": 3,
-      "trait": {
-        "en": ["Guild"]
-      },
-      "triggers": [],
-      "text": "You Win"
-    },
-    {
-      "name": {
-        "en": "Chiyuri",
-        "jp": "JOHN (JP)"
-      },
-      "color": "red",
-      "type": "climax",
-      "level": 0,
-      "cost": 14,
-      "power": 400,
-      "soul": 3,
-      "trait": {
-        "en": ["Human", "Male"]
-      },
-      "triggers": [],
-      "text": "Gain 500"
-    },
-    {
-      "name": {
-        "en": "CARD NAME",
-        "jp": "CARD NAME (JP)"
-      },
-      "color": "green",
-      "type": "character",
-      "level": 2,
-      "cost": 13,
-      "power": 200,
-      "soul": 4,
-      "trait": {
-        "en": ["Human", "Male"]
-      },
-      "triggers": ["soul", "soul"],
-      "text": "NOTHING"
-    },
-    {
-      "name": {
-        "en": "Chiyuri",
-        "jp": "Chiyuri (JP)"
-      },
-      "color": "yellow",
-      "type": "event",
-      "level": 2,
-      "cost": 3,
-      "power": 100,
-      "soul": 1,
-      "trait": {
-        "en": ["Wizard"]
-      },
-      "triggers": ["soul"],
-      "text": "NOTHING"
-    },
-    {
-      "name": {
-        "en": "JOHN",
-        "jp": "Chiyuri (JP)"
-      },
-      "color": "red",
-      "type": "character",
       "level": 0,
       "cost": 12,
       "power": 2000,
-      "soul": 1,
+      "soul": 4,
       "trait": {
-        "en": ["Cat", "Girl"]
+        "en": []
       },
-      "triggers": ["shot"],
+      "triggers": [
+        "door"
+      ],
       "text": "You Win"
     },
     {
       "name": {
-        "en": "JOHN",
+        "en": "Stafford",
         "jp": "CARD NAME (JP)"
       },
-      "color": "yellow",
-      "type": "event",
-      "level": 1,
-      "cost": 10,
-      "power": 1000,
-      "soul": 3,
-      "trait": {
-        "en": ["Human", "Male"]
-      },
-      "triggers": ["soul", "soul"],
-      "text": "NOTHING"
-    },
-    {
-      "name": {
-        "en": "LRIG",
-        "jp": "JOHN (JP)"
-      },
-      "color": "green",
-      "type": "climax",
-      "level": 1,
-      "cost": 9,
-      "power": 400,
-      "soul": 4,
-      "trait": {
-        "en": ["Cat", "Girl"]
-      },
-      "triggers": [],
-      "text": "Action: Do Thing; Get THing"
-    },
-    {
-      "name": {
-        "en": "CARD NAME",
-        "jp": "LRIG (JP)"
-      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
       "color": "red",
-      "type": "event",
-      "level": 3,
-      "cost": 3,
-      "power": 200,
-      "soul": 1,
-      "trait": {
-        "en": ["Guild"]
-      },
-      "triggers": ["gate"],
-      "text": "Gain 500"
-    },
-    {
-      "name": {
-        "en": "LRIG",
-        "jp": "JOHN (JP)"
-      },
-      "color": "yellow",
       "type": "character",
-      "level": 3,
-      "cost": 8,
-      "power": 400,
-      "soul": 3,
-      "trait": {
-        "en": []
-      },
-      "triggers": ["soul"],
-      "text": "Action: Do Thing; Get THing"
-    },
-    {
-      "name": {
-        "en": "LRIG",
-        "jp": "LRIG (JP)"
-      },
-      "color": "green",
-      "type": "climax",
       "level": 0,
       "cost": 6,
-      "power": 1000,
-      "soul": 3,
+      "power": 2000,
+      "soul": 1,
       "trait": {
-        "en": ["Wizard"]
+        "en": [
+          "Wizard"
+        ]
       },
       "triggers": [],
       "text": "NOTHING"
     },
     {
       "name": {
-        "en": "LRIG",
-        "jp": "JOHN (JP)"
-      },
-      "color": "yellow",
-      "type": "character",
-      "level": 2,
-      "cost": 1,
-      "power": 400,
-      "soul": 1,
-      "trait": {
-        "en": ["Guild"]
-      },
-      "triggers": ["soul", "soul"],
-      "text": "NOTHING"
-    },
-    {
-      "name": {
-        "en": "JOHN",
-        "jp": "LRIG (JP)"
-      },
-      "color": "yellow",
-      "type": "climax",
-      "level": 2,
-      "cost": 1,
-      "power": 1200,
-      "soul": 1,
-      "trait": {
-        "en": ["Cat", "Girl"]
-      },
-      "triggers": [],
-      "text": "You Win"
-    },
-    {
-      "name": {
-        "en": "Chiyuri",
+        "en": "Mercado",
         "jp": "Chiyuri (JP)"
       },
-      "color": "yellow",
-      "type": "character",
-      "level": 0,
-      "cost": 2,
-      "power": 1000,
-      "soul": 1,
-      "trait": {
-        "en": ["Guild"]
-      },
-      "triggers": [],
-      "text": "Gain 500"
-    },
-    {
-      "name": {
-        "en": "LRIG",
-        "jp": "CARD NAME (JP)"
-      },
-      "color": "yellow",
-      "type": "character",
-      "level": 1,
-      "cost": 13,
-      "power": 100,
-      "soul": 3,
-      "trait": {
-        "en": ["Order", "Guild"]
-      },
-      "triggers": ["book"],
-      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
-    },
-    {
-      "name": {
-        "en": "Chiyuri",
-        "jp": "LRIG (JP)"
-      },
-      "color": "green",
-      "type": "climax",
-      "level": 2,
-      "cost": 2,
-      "power": 200,
-      "soul": 2,
-      "trait": {
-        "en": ["Wizard"]
-      },
-      "triggers": [],
-      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
-    },
-    {
-      "name": {
-        "en": "LRIG",
-        "jp": "JOHN (JP)"
-      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
       "color": "blue",
-      "type": "climax",
-      "level": 3,
-      "cost": 2,
-      "power": 200,
-      "soul": 3,
-      "trait": {
-        "en": []
-      },
-      "triggers": ["gate"],
-      "text": "Action: Do Thing; Get THing"
-    },
-    {
-      "name": {
-        "en": "Chiyuri",
-        "jp": "LRIG (JP)"
-      },
-      "color": "green",
       "type": "character",
-      "level": 1,
-      "cost": 7,
-      "power": 400,
-      "soul": 2,
-      "trait": {
-        "en": []
-      },
-      "triggers": ["soul"],
-      "text": "NOTHING"
-    },
-    {
-      "name": {
-        "en": "LRIG",
-        "jp": "Chiyuri (JP)"
-      },
-      "color": "yellow",
-      "type": "event",
-      "level": 3,
-      "cost": 14,
-      "power": 1000,
-      "soul": 3,
-      "trait": {
-        "en": ["Human", "Male"]
-      },
-      "triggers": ["soul"],
-      "text": "Action: Do Thing; Get THing"
-    },
-    {
-      "name": {
-        "en": "LRIG",
-        "jp": "CARD NAME (JP)"
-      },
-      "color": "yellow",
-      "type": "event",
-      "level": 3,
-      "cost": 1,
-      "power": 200,
-      "soul": 3,
-      "trait": {
-        "en": ["Cat", "Girl"]
-      },
-      "triggers": [],
-      "text": "Gain 500"
-    },
-    {
-      "name": {
-        "en": "CARD NAME",
-        "jp": "LRIG (JP)"
-      },
-      "color": "red",
-      "type": "event",
-      "level": 2,
-      "cost": 12,
-      "power": 2000,
-      "soul": 3,
-      "trait": {
-        "en": ["Order", "Guild"]
-      },
-      "triggers": [],
-      "text": "Gain 500"
-    },
-    {
-      "name": {
-        "en": "Chiyuri",
-        "jp": "JOHN (JP)"
-      },
-      "color": "red",
-      "type": "climax",
-      "level": 0,
-      "cost": 6,
-      "power": 400,
-      "soul": 1,
-      "trait": {
-        "en": []
-      },
-      "triggers": ["soul", "soul"],
-      "text": "You Win"
-    },
-    {
-      "name": {
-        "en": "CARD NAME",
-        "jp": "JOHN (JP)"
-      },
-      "color": "red",
-      "type": "character",
-      "level": 3,
-      "cost": 14,
-      "power": 1000,
-      "soul": 2,
-      "trait": {
-        "en": ["Wizard"]
-      },
-      "triggers": ["book"],
-      "text": "NOTHING"
-    },
-    {
-      "name": {
-        "en": "CARD NAME",
-        "jp": "Chiyuri (JP)"
-      },
-      "color": "green",
-      "type": "event",
-      "level": 1,
-      "cost": 4,
-      "power": 400,
-      "soul": 1,
-      "trait": {
-        "en": []
-      },
-      "triggers": [],
-      "text": "Gain 500"
-    },
-    {
-      "name": {
-        "en": "JOHN",
-        "jp": "JOHN (JP)"
-      },
-      "color": "yellow",
-      "type": "character",
-      "level": 0,
-      "cost": 7,
-      "power": 400,
-      "soul": 1,
-      "trait": {
-        "en": ["Human", "Male"]
-      },
-      "triggers": ["soul", "soul"],
-      "text": "Gain 500"
-    },
-    {
-      "name": {
-        "en": "Chiyuri",
-        "jp": "CARD NAME (JP)"
-      },
-      "color": "red",
-      "type": "climax",
-      "level": 0,
-      "cost": 12,
-      "power": 2000,
-      "soul": 1,
-      "trait": {
-        "en": ["Cat", "Girl"]
-      },
-      "triggers": [],
-      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
-    },
-    {
-      "name": {
-        "en": "JOHN",
-        "jp": "CARD NAME (JP)"
-      },
-      "color": "yellow",
-      "type": "climax",
-      "level": 1,
-      "cost": 14,
-      "power": 2000,
-      "soul": 3,
-      "trait": {
-        "en": ["Guild"]
-      },
-      "triggers": ["shot"],
-      "text": "You Win"
-    },
-    {
-      "name": {
-        "en": "JOHN",
-        "jp": "Chiyuri (JP)"
-      },
-      "color": "red",
-      "type": "event",
-      "level": 3,
-      "cost": 7,
-      "power": 1200,
-      "soul": 2,
-      "trait": {
-        "en": ["Order", "Guild"]
-      },
-      "triggers": [],
-      "text": "NOTHING"
-    },
-    {
-      "name": {
-        "en": "CARD NAME",
-        "jp": "JOHN (JP)"
-      },
-      "color": "blue",
-      "type": "climax",
-      "level": 2,
-      "cost": 3,
-      "power": 400,
-      "soul": 2,
-      "trait": {
-        "en": ["Wizard"]
-      },
-      "triggers": ["soul"],
-      "text": "NOTHING"
-    },
-    {
-      "name": {
-        "en": "JOHN",
-        "jp": "Chiyuri (JP)"
-      },
-      "color": "blue",
-      "type": "event",
-      "level": 3,
-      "cost": 10,
-      "power": 2000,
-      "soul": 4,
-      "trait": {
-        "en": []
-      },
-      "triggers": [],
-      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
-    },
-    {
-      "name": {
-        "en": "Chiyuri",
-        "jp": "CARD NAME (JP)"
-      },
-      "color": "yellow",
-      "type": "climax",
       "level": 3,
       "cost": 5,
-      "power": 2000,
-      "soul": 1,
-      "trait": {
-        "en": ["Wizard"]
-      },
-      "triggers": ["shot"],
-      "text": "Action: Do Thing; Get THing"
-    },
-    {
-      "name": {
-        "en": "Chiyuri",
-        "jp": "CARD NAME (JP)"
-      },
-      "color": "yellow",
-      "type": "climax",
-      "level": 0,
-      "cost": 10,
-      "power": 1200,
-      "soul": 1,
-      "trait": {
-        "en": ["Order", "Guild"]
-      },
-      "triggers": [],
-      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
-    },
-    {
-      "name": {
-        "en": "Chiyuri",
-        "jp": "LRIG (JP)"
-      },
-      "color": "yellow",
-      "type": "character",
-      "level": 0,
-      "cost": 7,
-      "power": 2000,
-      "soul": 4,
-      "trait": {
-        "en": []
-      },
-      "triggers": ["shot"],
-      "text": "NOTHING"
-    },
-    {
-      "name": {
-        "en": "Chiyuri",
-        "jp": "JOHN (JP)"
-      },
-      "color": "red",
-      "type": "event",
-      "level": 1,
-      "cost": 4,
       "power": 1000,
       "soul": 3,
       "trait": {
         "en": []
       },
       "triggers": [],
-      "text": "You Win"
-    },
-    {
-      "name": {
-        "en": "JOHN",
-        "jp": "LRIG (JP)"
-      },
-      "color": "green",
-      "type": "event",
-      "level": 3,
-      "cost": 8,
-      "power": 1000,
-      "soul": 2,
-      "trait": {
-        "en": ["Wizard"]
-      },
-      "triggers": [],
-      "text": "You Win"
-    },
-    {
-      "name": {
-        "en": "LRIG",
-        "jp": "JOHN (JP)"
-      },
-      "color": "blue",
-      "type": "character",
-      "level": 3,
-      "cost": 8,
-      "power": 1000,
-      "soul": 2,
-      "trait": {
-        "en": ["Order", "Guild"]
-      },
-      "triggers": ["door"],
       "text": "[C] All your Characters gain +1000 Power and +1 Soul."
     },
     {
       "name": {
-        "en": "CARD NAME",
+        "en": "Sanford",
         "jp": "JOHN (JP)"
       },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
       "color": "blue",
-      "type": "character",
-      "level": 2,
-      "cost": 7,
-      "power": 2000,
-      "soul": 1,
-      "trait": {
-        "en": []
-      },
-      "triggers": [],
-      "text": "You Win"
-    },
-    {
-      "name": {
-        "en": "JOHN",
-        "jp": "JOHN (JP)"
-      },
-      "color": "yellow",
       "type": "event",
-      "level": 1,
-      "cost": 11,
-      "power": 1000,
-      "soul": 4,
-      "trait": {
-        "en": ["Human", "Male"]
-      },
-      "triggers": [],
-      "text": "Gain 500"
-    },
-    {
-      "name": {
-        "en": "CARD NAME",
-        "jp": "JOHN (JP)"
-      },
-      "color": "red",
-      "type": "character",
-      "level": 3,
-      "cost": 3,
-      "power": 100,
-      "soul": 1,
-      "trait": {
-        "en": ["Human", "Male"]
-      },
-      "triggers": ["soul", "soul"],
-      "text": "Gain 500"
-    },
-    {
-      "name": {
-        "en": "JOHN",
-        "jp": "CARD NAME (JP)"
-      },
-      "color": "blue",
-      "type": "climax",
       "level": 0,
       "cost": 11,
       "power": 1000,
-      "soul": 4,
+      "soul": 1,
       "trait": {
-        "en": ["Human", "Male"]
-      },
-      "triggers": [],
-      "text": "Action: Do Thing; Get THing"
-    },
-    {
-      "name": {
-        "en": "CARD NAME",
-        "jp": "JOHN (JP)"
-      },
-      "color": "blue",
-      "type": "event",
-      "level": 1,
-      "cost": 10,
-      "power": 200,
-      "soul": 4,
-      "trait": {
-        "en": ["Human", "Male"]
+        "en": []
       },
       "triggers": [],
       "text": "Gain 500"
     },
     {
       "name": {
-        "en": "Chiyuri",
+        "en": "Mcmillan",
         "jp": "LRIG (JP)"
       },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "blue",
+      "type": "character",
+      "level": 3,
+      "cost": 13,
+      "power": 400,
+      "soul": 1,
+      "trait": {
+        "en": []
+      },
+      "triggers": [],
+      "text": "Action: Do Thing; Get THing"
+    },
+    {
+      "name": {
+        "en": "Weiss",
+        "jp": "LRIG (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "event",
+      "level": 0,
+      "cost": 5,
+      "power": 100,
+      "soul": 1,
+      "trait": {
+        "en": [
+          "Wizard"
+        ]
+      },
+      "triggers": [
+        "shot"
+      ],
+      "text": "Action: Do Thing; Get THing"
+    },
+    {
+      "name": {
+        "en": "Shepherd",
+        "jp": "CARD NAME (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "red",
+      "type": "climax",
+      "level": 3,
+      "cost": 3,
+      "power": 400,
+      "soul": 1,
+      "trait": {
+        "en": [
+          "Cat",
+          "Girl"
+        ]
+      },
+      "triggers": [
+        "door"
+      ],
+      "text": "You Win"
+    },
+    {
+      "name": {
+        "en": "Crosby",
+        "jp": "LRIG (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "blue",
+      "type": "character",
+      "level": 2,
+      "cost": 8,
+      "power": 100,
+      "soul": 3,
+      "trait": {
+        "en": [
+          "Cat",
+          "Girl"
+        ]
+      },
+      "triggers": [
+        "gate"
+      ],
+      "text": "Gain 500"
+    },
+    {
+      "name": {
+        "en": "Perez",
+        "jp": "CARD NAME (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "event",
+      "level": 3,
+      "cost": 3,
+      "power": 1200,
+      "soul": 3,
+      "trait": {
+        "en": []
+      },
+      "triggers": [
+        "book"
+      ],
+      "text": "Action: Do Thing; Get THing"
+    },
+    {
+      "name": {
+        "en": "Hickman",
+        "jp": "JOHN (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
       "color": "yellow",
+      "type": "character",
+      "level": 3,
+      "cost": 5,
+      "power": 400,
+      "soul": 1,
+      "trait": {
+        "en": [
+          "Wizard"
+        ]
+      },
+      "triggers": [],
+      "text": "Action: Do Thing; Get THing"
+    },
+    {
+      "name": {
+        "en": "Gaines",
+        "jp": "JOHN (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "blue",
+      "type": "climax",
+      "level": 1,
+      "cost": 10,
+      "power": 400,
+      "soul": 4,
+      "trait": {
+        "en": [
+          "Order",
+          "Guild"
+        ]
+      },
+      "triggers": [
+        "book"
+      ],
+      "text": "Gain 500"
+    },
+    {
+      "name": {
+        "en": "Spears",
+        "jp": "Chiyuri (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "character",
+      "level": 3,
+      "cost": 2,
+      "power": 100,
+      "soul": 1,
+      "trait": {
+        "en": []
+      },
+      "triggers": [],
+      "text": "You Win"
+    },
+    {
+      "name": {
+        "en": "Barker",
+        "jp": "JOHN (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "yellow",
+      "type": "climax",
+      "level": 1,
+      "cost": 9,
+      "power": 1000,
+      "soul": 2,
+      "trait": {
+        "en": [
+          "Cat",
+          "Girl"
+        ]
+      },
+      "triggers": [
+        "soul"
+      ],
+      "text": "NOTHING"
+    },
+    {
+      "name": {
+        "en": "Goodman",
+        "jp": "JOHN (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "yellow",
+      "type": "event",
+      "level": 1,
+      "cost": 13,
+      "power": 400,
+      "soul": 4,
+      "trait": {
+        "en": [
+          "Order",
+          "Guild"
+        ]
+      },
+      "triggers": [],
+      "text": "Action: Do Thing; Get THing"
+    },
+    {
+      "name": {
+        "en": "Alexander",
+        "jp": "JOHN (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "blue",
+      "type": "climax",
+      "level": 3,
+      "cost": 3,
+      "power": 100,
+      "soul": 4,
+      "trait": {
+        "en": [
+          "Order",
+          "Guild"
+        ]
+      },
+      "triggers": [
+        "book"
+      ],
+      "text": "NOTHING"
+    },
+    {
+      "name": {
+        "en": "Baxter",
+        "jp": "CARD NAME (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "climax",
+      "level": 0,
+      "cost": 3,
+      "power": 400,
+      "soul": 3,
+      "trait": {
+        "en": [
+          "Guild"
+        ]
+      },
+      "triggers": [
+        "soul"
+      ],
+      "text": "Action: Do Thing; Get THing"
+    },
+    {
+      "name": {
+        "en": "Hampton",
+        "jp": "CARD NAME (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "blue",
+      "type": "climax",
+      "level": 2,
+      "cost": 2,
+      "power": 200,
+      "soul": 2,
+      "trait": {
+        "en": [
+          "Wizard"
+        ]
+      },
+      "triggers": [],
+      "text": "NOTHING"
+    },
+    {
+      "name": {
+        "en": "Copeland",
+        "jp": "LRIG (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "yellow",
+      "type": "event",
+      "level": 1,
+      "cost": 7,
+      "power": 100,
+      "soul": 1,
+      "trait": {
+        "en": [
+          "Order",
+          "Guild"
+        ]
+      },
+      "triggers": [],
+      "text": "Action: Do Thing; Get THing"
+    },
+    {
+      "name": {
+        "en": "Jordan",
+        "jp": "Chiyuri (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "red",
+      "type": "character",
+      "level": 1,
+      "cost": 14,
+      "power": 100,
+      "soul": 3,
+      "trait": {
+        "en": [
+          "Order",
+          "Guild"
+        ]
+      },
+      "triggers": [
+        "soul",
+        "soul"
+      ],
+      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
+    },
+    {
+      "name": {
+        "en": "Roach",
+        "jp": "JOHN (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "yellow",
+      "type": "character",
+      "level": 1,
+      "cost": 6,
+      "power": 1000,
+      "soul": 3,
+      "trait": {
+        "en": []
+      },
+      "triggers": [
+        "book"
+      ],
+      "text": "You Win"
+    },
+    {
+      "name": {
+        "en": "Gill",
+        "jp": "LRIG (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "event",
+      "level": 3,
+      "cost": 3,
+      "power": 400,
+      "soul": 3,
+      "trait": {
+        "en": []
+      },
+      "triggers": [
+        "soul"
+      ],
+      "text": "NOTHING"
+    },
+    {
+      "name": {
+        "en": "Hunter",
+        "jp": "Chiyuri (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "red",
+      "type": "character",
+      "level": 2,
+      "cost": 14,
+      "power": 400,
+      "soul": 1,
+      "trait": {
+        "en": [
+          "Guild"
+        ]
+      },
+      "triggers": [],
+      "text": "You Win"
+    },
+    {
+      "name": {
+        "en": "Farmer",
+        "jp": "LRIG (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "red",
+      "type": "climax",
+      "level": 1,
+      "cost": 5,
+      "power": 1200,
+      "soul": 4,
+      "trait": {
+        "en": [
+          "Human",
+          "Male"
+        ]
+      },
+      "triggers": [],
+      "text": "You Win"
+    },
+    {
+      "name": {
+        "en": "Beck",
+        "jp": "Chiyuri (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "character",
+      "level": 2,
+      "cost": 11,
+      "power": 100,
+      "soul": 4,
+      "trait": {
+        "en": [
+          "Cat",
+          "Girl"
+        ]
+      },
+      "triggers": [
+        "door"
+      ],
+      "text": "Gain 500"
+    },
+    {
+      "name": {
+        "en": "Warner",
+        "jp": "Chiyuri (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "yellow",
+      "type": "climax",
+      "level": 0,
+      "cost": 7,
+      "power": 400,
+      "soul": 1,
+      "trait": {
+        "en": []
+      },
+      "triggers": [
+        "gate"
+      ],
+      "text": "NOTHING"
+    },
+    {
+      "name": {
+        "en": "Sweet",
+        "jp": "CARD NAME (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "red",
       "type": "event",
       "level": 3,
       "cost": 12,
       "power": 400,
-      "soul": 3,
-      "trait": {
-        "en": ["Human", "Male"]
-      },
-      "triggers": ["soul", "soul"],
-      "text": "Gain 500"
-    },
-    {
-      "name": {
-        "en": "CARD NAME",
-        "jp": "Chiyuri (JP)"
-      },
-      "color": "yellow",
-      "type": "character",
-      "level": 3,
-      "cost": 8,
-      "power": 1200,
       "soul": 1,
       "trait": {
-        "en": ["Wizard"]
+        "en": [
+          "Guild"
+        ]
       },
-      "triggers": ["door"],
+      "triggers": [
+        "gate"
+      ],
       "text": "Action: Do Thing; Get THing"
     },
     {
       "name": {
-        "en": "LRIG",
+        "en": "Sharpe",
+        "jp": "JOHN (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "event",
+      "level": 3,
+      "cost": 8,
+      "power": 2000,
+      "soul": 4,
+      "trait": {
+        "en": []
+      },
+      "triggers": [],
+      "text": "You Win"
+    },
+    {
+      "name": {
+        "en": "Gentry",
         "jp": "Chiyuri (JP)"
       },
-      "color": "blue",
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "red",
+      "type": "event",
+      "level": 0,
+      "cost": 12,
+      "power": 1200,
+      "soul": 2,
+      "trait": {
+        "en": [
+          "Guild"
+        ]
+      },
+      "triggers": [
+        "gate"
+      ],
+      "text": "NOTHING"
+    },
+    {
+      "name": {
+        "en": "Whitfield",
+        "jp": "JOHN (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "red",
       "type": "character",
-      "level": 3,
+      "level": 2,
+      "cost": 1,
+      "power": 1200,
+      "soul": 3,
+      "trait": {
+        "en": [
+          "Cat",
+          "Girl"
+        ]
+      },
+      "triggers": [
+        "shot"
+      ],
+      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
+    },
+    {
+      "name": {
+        "en": "Fitzpatrick",
+        "jp": "Chiyuri (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "character",
+      "level": 2,
+      "cost": 9,
+      "power": 1000,
+      "soul": 1,
+      "trait": {
+        "en": []
+      },
+      "triggers": [],
+      "text": "Action: Do Thing; Get THing"
+    },
+    {
+      "name": {
+        "en": "Kerr",
+        "jp": "Chiyuri (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "character",
+      "level": 2,
       "cost": 8,
       "power": 2000,
       "soul": 3,
       "trait": {
-        "en": ["Human", "Male"]
+        "en": [
+          "Cat",
+          "Girl"
+        ]
       },
-      "triggers": ["door"],
+      "triggers": [
+        "book"
+      ],
       "text": "Action: Do Thing; Get THing"
     },
     {
       "name": {
-        "en": "Chiyuri",
-        "jp": "LRIG (JP)"
+        "en": "Farley",
+        "jp": "Chiyuri (JP)"
       },
-      "color": "red",
-      "type": "character",
-      "level": 3,
-      "cost": 9,
-      "power": 100,
-      "soul": 1,
-      "trait": {
-        "en": ["Order", "Guild"]
-      },
-      "triggers": ["gate"],
-      "text": "Action: Do Thing; Get THing"
-    },
-    {
-      "name": {
-        "en": "LRIG",
-        "jp": "JOHN (JP)"
-      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
       "color": "red",
       "type": "event",
+      "level": 2,
+      "cost": 4,
+      "power": 400,
+      "soul": 1,
+      "trait": {
+        "en": []
+      },
+      "triggers": [],
+      "text": "NOTHING"
+    },
+    {
+      "name": {
+        "en": "Potts",
+        "jp": "Chiyuri (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "blue",
+      "type": "climax",
+      "level": 3,
+      "cost": 7,
+      "power": 200,
+      "soul": 1,
+      "trait": {
+        "en": []
+      },
+      "triggers": [
+        "soul",
+        "soul"
+      ],
+      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
+    },
+    {
+      "name": {
+        "en": "Lott",
+        "jp": "Chiyuri (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "blue",
+      "type": "climax",
       "level": 0,
-      "cost": 2,
+      "cost": 6,
+      "power": 200,
+      "soul": 3,
+      "trait": {
+        "en": [
+          "Guild"
+        ]
+      },
+      "triggers": [
+        "soul",
+        "soul"
+      ],
+      "text": "NOTHING"
+    },
+    {
+      "name": {
+        "en": "Douglas",
+        "jp": "LRIG (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "blue",
+      "type": "climax",
+      "level": 0,
+      "cost": 6,
       "power": 400,
       "soul": 4,
       "trait": {
         "en": []
       },
-      "triggers": ["shot"],
+      "triggers": [
+        "door"
+      ],
       "text": "Action: Do Thing; Get THing"
     },
     {
       "name": {
-        "en": "CARD NAME",
+        "en": "Dyer",
         "jp": "CARD NAME (JP)"
       },
-      "color": "red",
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "yellow",
       "type": "event",
-      "level": 1,
-      "cost": 5,
+      "level": 3,
+      "cost": 9,
       "power": 400,
+      "soul": 1,
+      "trait": {
+        "en": [
+          "Guild"
+        ]
+      },
+      "triggers": [],
+      "text": "You Win"
+    },
+    {
+      "name": {
+        "en": "Boyle",
+        "jp": "Chiyuri (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "blue",
+      "type": "climax",
+      "level": 0,
+      "cost": 14,
+      "power": 200,
       "soul": 3,
       "trait": {
-        "en": ["Guild"]
+        "en": [
+          "Wizard"
+        ]
+      },
+      "triggers": [
+        "door"
+      ],
+      "text": "Gain 500"
+    },
+    {
+      "name": {
+        "en": "Yates",
+        "jp": "JOHN (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "yellow",
+      "type": "character",
+      "level": 3,
+      "cost": 2,
+      "power": 2000,
+      "soul": 2,
+      "trait": {
+        "en": [
+          "Cat",
+          "Girl"
+        ]
+      },
+      "triggers": [],
+      "text": "NOTHING"
+    },
+    {
+      "name": {
+        "en": "Rich",
+        "jp": "Chiyuri (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "blue",
+      "type": "character",
+      "level": 0,
+      "cost": 13,
+      "power": 400,
+      "soul": 2,
+      "trait": {
+        "en": []
+      },
+      "triggers": [
+        "soul"
+      ],
+      "text": "Gain 500"
+    },
+    {
+      "name": {
+        "en": "Shepard",
+        "jp": "CARD NAME (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "event",
+      "level": 1,
+      "cost": 14,
+      "power": 200,
+      "soul": 4,
+      "trait": {
+        "en": [
+          "Wizard"
+        ]
+      },
+      "triggers": [],
+      "text": "Action: Do Thing; Get THing"
+    },
+    {
+      "name": {
+        "en": "Raymond",
+        "jp": "LRIG (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "character",
+      "level": 0,
+      "cost": 12,
+      "power": 200,
+      "soul": 3,
+      "trait": {
+        "en": [
+          "Guild"
+        ]
+      },
+      "triggers": [
+        "book"
+      ],
+      "text": "NOTHING"
+    },
+    {
+      "name": {
+        "en": "Barron",
+        "jp": "CARD NAME (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "yellow",
+      "type": "event",
+      "level": 0,
+      "cost": 14,
+      "power": 1000,
+      "soul": 4,
+      "trait": {
+        "en": [
+          "Order",
+          "Guild"
+        ]
+      },
+      "triggers": [
+        "soul",
+        "soul"
+      ],
+      "text": "You Win"
+    },
+    {
+      "name": {
+        "en": "Stanley",
+        "jp": "CARD NAME (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "climax",
+      "level": 3,
+      "cost": 3,
+      "power": 200,
+      "soul": 1,
+      "trait": {
+        "en": [
+          "Guild"
+        ]
+      },
+      "triggers": [
+        "door"
+      ],
+      "text": "Action: Do Thing; Get THing"
+    },
+    {
+      "name": {
+        "en": "Chandler",
+        "jp": "Chiyuri (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "character",
+      "level": 3,
+      "cost": 11,
+      "power": 400,
+      "soul": 1,
+      "trait": {
+        "en": [
+          "Human",
+          "Male"
+        ]
       },
       "triggers": [],
       "text": "Gain 500"
     },
     {
       "name": {
-        "en": "Chiyuri",
-        "jp": "LRIG (JP)"
+        "en": "Wall",
+        "jp": "Chiyuri (JP)"
       },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
       "color": "red",
-      "type": "climax",
-      "level": 0,
-      "cost": 14,
-      "power": 1000,
-      "soul": 4,
-      "trait": {
-        "en": ["Guild"]
-      },
-      "triggers": [],
-      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
-    },
-    {
-      "name": {
-        "en": "Chiyuri",
-        "jp": "JOHN (JP)"
-      },
-      "color": "red",
-      "type": "character",
-      "level": 0,
-      "cost": 5,
-      "power": 400,
-      "soul": 4,
-      "trait": {
-        "en": ["Human", "Male"]
-      },
-      "triggers": ["gate"],
-      "text": "Action: Do Thing; Get THing"
-    },
-    {
-      "name": {
-        "en": "CARD NAME",
-        "jp": "JOHN (JP)"
-      },
-      "color": "yellow",
       "type": "event",
       "level": 0,
-      "cost": 13,
-      "power": 200,
-      "soul": 1,
-      "trait": {
-        "en": ["Order", "Guild"]
-      },
-      "triggers": ["book"],
-      "text": "Action: Do Thing; Get THing"
-    },
-    {
-      "name": {
-        "en": "CARD NAME",
-        "jp": "LRIG (JP)"
-      },
-      "color": "yellow",
-      "type": "climax",
-      "level": 1,
       "cost": 1,
-      "power": 100,
-      "soul": 2,
-      "trait": {
-        "en": ["Human", "Male"]
-      },
-      "triggers": [],
-      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
-    },
-    {
-      "name": {
-        "en": "CARD NAME",
-        "jp": "JOHN (JP)"
-      },
-      "color": "blue",
-      "type": "climax",
-      "level": 1,
-      "cost": 4,
       "power": 400,
-      "soul": 4,
+      "soul": 3,
       "trait": {
-        "en": ["Wizard"]
+        "en": [
+          "Order",
+          "Guild"
+        ]
       },
-      "triggers": [],
-      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
-    },
-    {
-      "name": {
-        "en": "Chiyuri",
-        "jp": "LRIG (JP)"
-      },
-      "color": "red",
-      "type": "climax",
-      "level": 3,
-      "cost": 2,
-      "power": 100,
-      "soul": 2,
-      "trait": {
-        "en": ["Human", "Male"]
-      },
-      "triggers": ["soul"],
+      "triggers": [
+        "book"
+      ],
       "text": "You Win"
     },
     {
       "name": {
-        "en": "LRIG",
+        "en": "England",
+        "jp": "Chiyuri (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "yellow",
+      "type": "event",
+      "level": 1,
+      "cost": 3,
+      "power": 100,
+      "soul": 1,
+      "trait": {
+        "en": [
+          "Cat",
+          "Girl"
+        ]
+      },
+      "triggers": [],
+      "text": "NOTHING"
+    },
+    {
+      "name": {
+        "en": "Miranda",
+        "jp": "JOHN (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "blue",
+      "type": "climax",
+      "level": 1,
+      "cost": 6,
+      "power": 400,
+      "soul": 1,
+      "trait": {
+        "en": []
+      },
+      "triggers": [
+        "soul"
+      ],
+      "text": "NOTHING"
+    },
+    {
+      "name": {
+        "en": "Garrison",
+        "jp": "LRIG (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "blue",
+      "type": "climax",
+      "level": 0,
+      "cost": 10,
+      "power": 2000,
+      "soul": 1,
+      "trait": {
+        "en": [
+          "Cat",
+          "Girl"
+        ]
+      },
+      "triggers": [],
+      "text": "You Win"
+    },
+    {
+      "name": {
+        "en": "Phelps",
         "jp": "CARD NAME (JP)"
       },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "blue",
+      "type": "event",
+      "level": 2,
+      "cost": 14,
+      "power": 1200,
+      "soul": 2,
+      "trait": {
+        "en": [
+          "Guild"
+        ]
+      },
+      "triggers": [
+        "gate"
+      ],
+      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
+    },
+    {
+      "name": {
+        "en": "Delaney",
+        "jp": "JOHN (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "yellow",
+      "type": "climax",
+      "level": 2,
+      "cost": 9,
+      "power": 400,
+      "soul": 3,
+      "trait": {
+        "en": [
+          "Order",
+          "Guild"
+        ]
+      },
+      "triggers": [],
+      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
+    },
+    {
+      "name": {
+        "en": "Cherry",
+        "jp": "JOHN (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
       "color": "red",
       "type": "event",
-      "level": 3,
-      "cost": 10,
+      "level": 0,
+      "cost": 11,
+      "power": 1000,
+      "soul": 1,
+      "trait": {
+        "en": [
+          "Guild"
+        ]
+      },
+      "triggers": [],
+      "text": "NOTHING"
+    },
+    {
+      "name": {
+        "en": "Burns",
+        "jp": "JOHN (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "yellow",
+      "type": "event",
+      "level": 2,
+      "cost": 7,
+      "power": 100,
+      "soul": 3,
+      "trait": {
+        "en": [
+          "Cat",
+          "Girl"
+        ]
+      },
+      "triggers": [
+        "soul",
+        "soul"
+      ],
+      "text": "NOTHING"
+    },
+    {
+      "name": {
+        "en": "Austin",
+        "jp": "CARD NAME (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "character",
+      "level": 0,
+      "cost": 1,
+      "power": 1000,
+      "soul": 4,
+      "trait": {
+        "en": [
+          "Human",
+          "Male"
+        ]
+      },
+      "triggers": [
+        "soul",
+        "soul"
+      ],
+      "text": "NOTHING"
+    },
+    {
+      "name": {
+        "en": "Gross",
+        "jp": "CARD NAME (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "climax",
+      "level": 1,
+      "cost": 14,
       "power": 400,
       "soul": 2,
       "trait": {
-        "en": ["Cat", "Girl"]
+        "en": [
+          "Guild"
+        ]
       },
-      "triggers": ["book"],
+      "triggers": [],
+      "text": "Gain 500"
+    },
+    {
+      "name": {
+        "en": "Short",
+        "jp": "Chiyuri (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "red",
+      "type": "character",
+      "level": 2,
+      "cost": 5,
+      "power": 400,
+      "soul": 2,
+      "trait": {
+        "en": [
+          "Wizard"
+        ]
+      },
+      "triggers": [
+        "soul"
+      ],
+      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
+    },
+    {
+      "name": {
+        "en": "Craft",
+        "jp": "Chiyuri (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "red",
+      "type": "climax",
+      "level": 3,
+      "cost": 13,
+      "power": 2000,
+      "soul": 3,
+      "trait": {
+        "en": [
+          "Order",
+          "Guild"
+        ]
+      },
+      "triggers": [
+        "door"
+      ],
+      "text": "Gain 500"
+    },
+    {
+      "name": {
+        "en": "Lee",
+        "jp": "JOHN (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "blue",
+      "type": "climax",
+      "level": 3,
+      "cost": 13,
+      "power": 1200,
+      "soul": 3,
+      "trait": {
+        "en": []
+      },
+      "triggers": [],
+      "text": "NOTHING"
+    },
+    {
+      "name": {
+        "en": "Hoover",
+        "jp": "JOHN (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "yellow",
+      "type": "event",
+      "level": 1,
+      "cost": 2,
+      "power": 100,
+      "soul": 1,
+      "trait": {
+        "en": [
+          "Wizard"
+        ]
+      },
+      "triggers": [],
+      "text": "Gain 500"
+    },
+    {
+      "name": {
+        "en": "Ortega",
+        "jp": "JOHN (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "event",
+      "level": 2,
+      "cost": 11,
+      "power": 400,
+      "soul": 1,
+      "trait": {
+        "en": [
+          "Wizard"
+        ]
+      },
+      "triggers": [],
+      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
+    },
+    {
+      "name": {
+        "en": "Dodson",
+        "jp": "CARD NAME (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "blue",
+      "type": "climax",
+      "level": 3,
+      "cost": 13,
+      "power": 400,
+      "soul": 1,
+      "trait": {
+        "en": [
+          "Human",
+          "Male"
+        ]
+      },
+      "triggers": [
+        "soul"
+      ],
+      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
+    },
+    {
+      "name": {
+        "en": "Washington",
+        "jp": "Chiyuri (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "yellow",
+      "type": "character",
+      "level": 3,
+      "cost": 5,
+      "power": 2000,
+      "soul": 4,
+      "trait": {
+        "en": [
+          "Cat",
+          "Girl"
+        ]
+      },
+      "triggers": [],
+      "text": "You Win"
+    },
+    {
+      "name": {
+        "en": "Boone",
+        "jp": "LRIG (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "red",
+      "type": "climax",
+      "level": 2,
+      "cost": 13,
+      "power": 400,
+      "soul": 2,
+      "trait": {
+        "en": [
+          "Human",
+          "Male"
+        ]
+      },
+      "triggers": [],
       "text": "Action: Do Thing; Get THing"
     },
     {
       "name": {
-        "en": "LRIG",
-        "jp": "Chiyuri (JP)"
+        "en": "Stewart",
+        "jp": "LRIG (JP)"
       },
-      "color": "red",
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
       "type": "event",
+      "level": 0,
+      "cost": 6,
+      "power": 100,
+      "soul": 2,
+      "trait": {
+        "en": [
+          "Guild"
+        ]
+      },
+      "triggers": [],
+      "text": "You Win"
+    },
+    {
+      "name": {
+        "en": "Combs",
+        "jp": "CARD NAME (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "red",
+      "type": "character",
       "level": 3,
-      "cost": 1,
+      "cost": 2,
+      "power": 200,
+      "soul": 3,
+      "trait": {
+        "en": [
+          "Order",
+          "Guild"
+        ]
+      },
+      "triggers": [],
+      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
+    },
+    {
+      "name": {
+        "en": "Burris",
+        "jp": "LRIG (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "red",
+      "type": "climax",
+      "level": 2,
+      "cost": 4,
       "power": 200,
       "soul": 2,
       "trait": {
-        "en": ["Guild"]
+        "en": [
+          "Cat",
+          "Girl"
+        ]
+      },
+      "triggers": [
+        "gate"
+      ],
+      "text": "NOTHING"
+    },
+    {
+      "name": {
+        "en": "Lynch",
+        "jp": "Chiyuri (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "blue",
+      "type": "character",
+      "level": 0,
+      "cost": 9,
+      "power": 100,
+      "soul": 4,
+      "trait": {
+        "en": [
+          "Guild"
+        ]
+      },
+      "triggers": [
+        "shot"
+      ],
+      "text": "Action: Do Thing; Get THing"
+    },
+    {
+      "name": {
+        "en": "Villarreal",
+        "jp": "CARD NAME (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "yellow",
+      "type": "character",
+      "level": 0,
+      "cost": 4,
+      "power": 1000,
+      "soul": 1,
+      "trait": {
+        "en": [
+          "Guild"
+        ]
+      },
+      "triggers": [
+        "shot"
+      ],
+      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
+    },
+    {
+      "name": {
+        "en": "Santos",
+        "jp": "JOHN (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "red",
+      "type": "character",
+      "level": 0,
+      "cost": 10,
+      "power": 1000,
+      "soul": 1,
+      "trait": {
+        "en": [
+          "Human",
+          "Male"
+        ]
+      },
+      "triggers": [
+        "gate"
+      ],
+      "text": "Gain 500"
+    },
+    {
+      "name": {
+        "en": "Fry",
+        "jp": "Chiyuri (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "event",
+      "level": 2,
+      "cost": 14,
+      "power": 200,
+      "soul": 2,
+      "trait": {
+        "en": [
+          "Human",
+          "Male"
+        ]
+      },
+      "triggers": [
+        "gate"
+      ],
+      "text": "NOTHING"
+    },
+    {
+      "name": {
+        "en": "Ortiz",
+        "jp": "Chiyuri (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "yellow",
+      "type": "event",
+      "level": 0,
+      "cost": 12,
+      "power": 2000,
+      "soul": 3,
+      "trait": {
+        "en": [
+          "Order",
+          "Guild"
+        ]
+      },
+      "triggers": [],
+      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
+    },
+    {
+      "name": {
+        "en": "Puckett",
+        "jp": "Chiyuri (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "blue",
+      "type": "character",
+      "level": 0,
+      "cost": 13,
+      "power": 1200,
+      "soul": 1,
+      "trait": {
+        "en": [
+          "Guild"
+        ]
+      },
+      "triggers": [
+        "door"
+      ],
+      "text": "Action: Do Thing; Get THing"
+    },
+    {
+      "name": {
+        "en": "Campos",
+        "jp": "LRIG (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "climax",
+      "level": 0,
+      "cost": 12,
+      "power": 200,
+      "soul": 3,
+      "trait": {
+        "en": [
+          "Guild"
+        ]
       },
       "triggers": [],
       "text": "NOTHING"
+    },
+    {
+      "name": {
+        "en": "Harrison",
+        "jp": "CARD NAME (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "yellow",
+      "type": "character",
+      "level": 0,
+      "cost": 3,
+      "power": 400,
+      "soul": 3,
+      "trait": {
+        "en": [
+          "Human",
+          "Male"
+        ]
+      },
+      "triggers": [],
+      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
+    },
+    {
+      "name": {
+        "en": "Matthews",
+        "jp": "JOHN (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "blue",
+      "type": "event",
+      "level": 3,
+      "cost": 12,
+      "power": 200,
+      "soul": 2,
+      "trait": {
+        "en": [
+          "Guild"
+        ]
+      },
+      "triggers": [],
+      "text": "You Win"
+    },
+    {
+      "name": {
+        "en": "Juarez",
+        "jp": "JOHN (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "blue",
+      "type": "climax",
+      "level": 1,
+      "cost": 5,
+      "power": 100,
+      "soul": 3,
+      "trait": {
+        "en": [
+          "Cat",
+          "Girl"
+        ]
+      },
+      "triggers": [
+        "door"
+      ],
+      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
+    },
+    {
+      "name": {
+        "en": "Patel",
+        "jp": "JOHN (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "yellow",
+      "type": "climax",
+      "level": 0,
+      "cost": 1,
+      "power": 400,
+      "soul": 1,
+      "trait": {
+        "en": [
+          "Order",
+          "Guild"
+        ]
+      },
+      "triggers": [
+        "soul",
+        "soul"
+      ],
+      "text": "NOTHING"
+    },
+    {
+      "name": {
+        "en": "Hernandez",
+        "jp": "LRIG (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "character",
+      "level": 0,
+      "cost": 14,
+      "power": 1000,
+      "soul": 2,
+      "trait": {
+        "en": [
+          "Guild"
+        ]
+      },
+      "triggers": [
+        "gate"
+      ],
+      "text": "You Win"
+    },
+    {
+      "name": {
+        "en": "Alford",
+        "jp": "JOHN (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "blue",
+      "type": "character",
+      "level": 3,
+      "cost": 8,
+      "power": 200,
+      "soul": 4,
+      "trait": {
+        "en": [
+          "Cat",
+          "Girl"
+        ]
+      },
+      "triggers": [
+        "soul",
+        "soul"
+      ],
+      "text": "Action: Do Thing; Get THing"
+    },
+    {
+      "name": {
+        "en": "Harrell",
+        "jp": "CARD NAME (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "red",
+      "type": "climax",
+      "level": 2,
+      "cost": 1,
+      "power": 400,
+      "soul": 2,
+      "trait": {
+        "en": [
+          "Wizard"
+        ]
+      },
+      "triggers": [],
+      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
+    },
+    {
+      "name": {
+        "en": "Petty",
+        "jp": "JOHN (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "climax",
+      "level": 3,
+      "cost": 11,
+      "power": 400,
+      "soul": 4,
+      "trait": {
+        "en": [
+          "Human",
+          "Male"
+        ]
+      },
+      "triggers": [
+        "door"
+      ],
+      "text": "You Win"
+    },
+    {
+      "name": {
+        "en": "Bray",
+        "jp": "CARD NAME (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "blue",
+      "type": "character",
+      "level": 1,
+      "cost": 7,
+      "power": 100,
+      "soul": 2,
+      "trait": {
+        "en": [
+          "Guild"
+        ]
+      },
+      "triggers": [
+        "soul",
+        "soul"
+      ],
+      "text": "You Win"
+    },
+    {
+      "name": {
+        "en": "Perkins",
+        "jp": "CARD NAME (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "yellow",
+      "type": "character",
+      "level": 0,
+      "cost": 7,
+      "power": 100,
+      "soul": 3,
+      "trait": {
+        "en": [
+          "Order",
+          "Guild"
+        ]
+      },
+      "triggers": [],
+      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
+    },
+    {
+      "name": {
+        "en": "Pace",
+        "jp": "CARD NAME (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "blue",
+      "type": "character",
+      "level": 2,
+      "cost": 8,
+      "power": 400,
+      "soul": 3,
+      "trait": {
+        "en": [
+          "Cat",
+          "Girl"
+        ]
+      },
+      "triggers": [
+        "door"
+      ],
+      "text": "Action: Do Thing; Get THing"
+    },
+    {
+      "name": {
+        "en": "Travis",
+        "jp": "CARD NAME (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "event",
+      "level": 2,
+      "cost": 8,
+      "power": 200,
+      "soul": 4,
+      "trait": {
+        "en": []
+      },
+      "triggers": [
+        "book"
+      ],
+      "text": "You Win"
+    },
+    {
+      "name": {
+        "en": "Witt",
+        "jp": "LRIG (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "character",
+      "level": 3,
+      "cost": 14,
+      "power": 400,
+      "soul": 2,
+      "trait": {
+        "en": [
+          "Guild"
+        ]
+      },
+      "triggers": [
+        "door"
+      ],
+      "text": "You Win"
+    },
+    {
+      "name": {
+        "en": "Terry",
+        "jp": "CARD NAME (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "yellow",
+      "type": "event",
+      "level": 2,
+      "cost": 10,
+      "power": 400,
+      "soul": 3,
+      "trait": {
+        "en": []
+      },
+      "triggers": [],
+      "text": "Gain 500"
+    },
+    {
+      "name": {
+        "en": "York",
+        "jp": "LRIG (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "red",
+      "type": "climax",
+      "level": 0,
+      "cost": 11,
+      "power": 1200,
+      "soul": 1,
+      "trait": {
+        "en": [
+          "Human",
+          "Male"
+        ]
+      },
+      "triggers": [
+        "book"
+      ],
+      "text": "Action: Do Thing; Get THing"
+    },
+    {
+      "name": {
+        "en": "Burks",
+        "jp": "LRIG (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "climax",
+      "level": 1,
+      "cost": 1,
+      "power": 400,
+      "soul": 1,
+      "trait": {
+        "en": [
+          "Order",
+          "Guild"
+        ]
+      },
+      "triggers": [],
+      "text": "You Win"
+    },
+    {
+      "name": {
+        "en": "Rodriquez",
+        "jp": "CARD NAME (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "character",
+      "level": 3,
+      "cost": 13,
+      "power": 400,
+      "soul": 1,
+      "trait": {
+        "en": []
+      },
+      "triggers": [],
+      "text": "You Win"
+    },
+    {
+      "name": {
+        "en": "Bernard",
+        "jp": "LRIG (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "yellow",
+      "type": "event",
+      "level": 0,
+      "cost": 4,
+      "power": 400,
+      "soul": 1,
+      "trait": {
+        "en": [
+          "Human",
+          "Male"
+        ]
+      },
+      "triggers": [
+        "door"
+      ],
+      "text": "Action: Do Thing; Get THing"
+    },
+    {
+      "name": {
+        "en": "Hodges",
+        "jp": "CARD NAME (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "climax",
+      "level": 3,
+      "cost": 2,
+      "power": 2000,
+      "soul": 1,
+      "trait": {
+        "en": []
+      },
+      "triggers": [],
+      "text": "Action: Do Thing; Get THing"
+    },
+    {
+      "name": {
+        "en": "Noble",
+        "jp": "CARD NAME (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "yellow",
+      "type": "event",
+      "level": 2,
+      "cost": 8,
+      "power": 2000,
+      "soul": 1,
+      "trait": {
+        "en": [
+          "Cat",
+          "Girl"
+        ]
+      },
+      "triggers": [],
+      "text": "NOTHING"
+    },
+    {
+      "name": {
+        "en": "Galloway",
+        "jp": "JOHN (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "yellow",
+      "type": "character",
+      "level": 2,
+      "cost": 8,
+      "power": 400,
+      "soul": 2,
+      "trait": {
+        "en": [
+          "Wizard"
+        ]
+      },
+      "triggers": [
+        "book"
+      ],
+      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
+    },
+    {
+      "name": {
+        "en": "Kramer",
+        "jp": "JOHN (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "red",
+      "type": "climax",
+      "level": 1,
+      "cost": 13,
+      "power": 1200,
+      "soul": 3,
+      "trait": {
+        "en": [
+          "Order",
+          "Guild"
+        ]
+      },
+      "triggers": [],
+      "text": "NOTHING"
+    },
+    {
+      "name": {
+        "en": "Russo",
+        "jp": "Chiyuri (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "red",
+      "type": "climax",
+      "level": 2,
+      "cost": 5,
+      "power": 200,
+      "soul": 4,
+      "trait": {
+        "en": [
+          "Cat",
+          "Girl"
+        ]
+      },
+      "triggers": [],
+      "text": "Action: Do Thing; Get THing"
+    },
+    {
+      "name": {
+        "en": "Foreman",
+        "jp": "CARD NAME (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "red",
+      "type": "climax",
+      "level": 2,
+      "cost": 11,
+      "power": 1000,
+      "soul": 3,
+      "trait": {
+        "en": [
+          "Wizard"
+        ]
+      },
+      "triggers": [],
+      "text": "NOTHING"
+    },
+    {
+      "name": {
+        "en": "Carter",
+        "jp": "LRIG (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "green",
+      "type": "climax",
+      "level": 3,
+      "cost": 7,
+      "power": 400,
+      "soul": 2,
+      "trait": {
+        "en": [
+          "Guild"
+        ]
+      },
+      "triggers": [],
+      "text": "Gain 500"
+    },
+    {
+      "name": {
+        "en": "Skinner",
+        "jp": "CARD NAME (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "blue",
+      "type": "climax",
+      "level": 1,
+      "cost": 13,
+      "power": 400,
+      "soul": 1,
+      "trait": {
+        "en": [
+          "Guild"
+        ]
+      },
+      "triggers": [
+        "door"
+      ],
+      "text": "NOTHING"
+    },
+    {
+      "name": {
+        "en": "Bentley",
+        "jp": "LRIG (JP)"
+      },
+      "imageUrl": "https://www.heartofthecards.com/heartofthecards/images/cards/ws/bfr-s78-041.png",
+      "color": "red",
+      "type": "climax",
+      "level": 2,
+      "cost": 10,
+      "power": 1200,
+      "soul": 3,
+      "trait": {
+        "en": []
+      },
+      "triggers": [],
+      "text": "[C] All your Characters gain +1000 Power and +1 Soul."
     }
   ]
 }

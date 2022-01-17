@@ -1,122 +1,136 @@
 <script lang="tsx">
-import { defineComponent, PropType, ref, watch } from 'vue';
-import { SearchModel } from '../../types/search-model';
-import { OptionLabel } from '../../types/optionLabel';
+import { defineComponent } from 'vue';
+import { useSearch } from '~/composables';
 import { WsMinMax } from './components';
 import InputText from 'primevue/inputtext';
 import MultiSelect from 'primevue/multiselect';
 import Card from 'primevue/card';
+import { SearchModel } from '~/types/search-model';
 
 export default defineComponent({
   name: 'ws-deck-search',
   components: { Card, InputText, MultiSelect, WsMinMax },
-  props: {
-    searchModel: {
-      type: Object as PropType<SearchModel>,
-      default: () => new SearchModel()
-    },
-    availableColors: {
-      type: Array as PropType<OptionLabel<string>[]>,
-      default: () => []
-    },
-    availableSouls: {
-      type: Array as PropType<OptionLabel<string>[]>,
-      default: () => []
-    },
-    availableTraits: {
-      type: Array as PropType<OptionLabel<string>[]>,
-      default: () => []
-    },
-    availableTypes: {
-      type: Array as PropType<OptionLabel<string>[]>,
-      default: () => []
-    },
-    availableTriggers: {
-      type: Array as PropType<OptionLabel<string>[]>,
-      default: () => []
-    }
+  setup() {
+    const { getSearchModel, getAvailableColors, getAvailableTraits, getAvailableSouls, getAvailableTriggers, getAvailableTypes } = useSearch();
+    return {
+      searchModel: getSearchModel(),
+      availableColors: getAvailableColors(),
+      availableTraits: getAvailableTraits(),
+      availableSouls: getAvailableSouls(),
+      availableTriggers: getAvailableTriggers(),
+      availableTypes: getAvailableTypes(),
+    };
   },
   render() {
+    const updateSearchModel = (key: keyof SearchModel, value: any) => {
+      const { updateSearchModel: update } = useSearch();
+      update(key, value);
+    };
+
+    const updateMinMax = (base: string, value: { min: string; max: string }) => {
+      const { updateSearchModel: update } = useSearch();
+      const [letter, ...rest] = base;
+      // @ts-ignore
+      update(`min${letter.toUpperCase()}${rest.join('')}`, value.min);
+      // @ts-ignore
+      update(`max${letter.toUpperCase()}${rest.join('')}`, value.max);
+    };
+
     const searchArea = (
       <div class="ws-deck-search__body">
         <div class="ws-deck-search__body--name input-block">
           <label>Name</label>
-          <input-text
-            modelValue={this.searchModel.name}
-            onInput={($event: string) => this.$emit('update.searchModel', { ...this.searchModel, name: $event })}
-          ></input-text>
+          <input-text value={this.searchModel.name} onInput={(event: any) => updateSearchModel('name', event.target.value)}></input-text>
         </div>
         <div class="ws-deck-search__body--effect input-block">
           <label>Effect</label>
-          <input-text></input-text>
+          <input-text value={this.searchModel.text} onInput={(event: any) => updateSearchModel('text', event.target.value)}></input-text>
         </div>
         <div class="ws-deck-search__body--color input-block">
           <label>Color</label>
           <multi-select
-            v-model={this.searchModel.colors}
+            modelValue={this.searchModel.colors}
             optionLabel="display"
             optionValue="value"
             options={this.availableColors}
             filter={true}
+            onChange={(event: any) => updateSearchModel('colors', event.value)}
           ></multi-select>
         </div>
         <div class="ws-deck-search__body--type input-block">
           <label>Type</label>
           <multi-select
-            v-model={this.searchModel.types}
+            modelValue={this.searchModel.types}
             optionLabel="display"
             optionValue="value"
             options={this.availableTypes}
             filter={true}
+            onChange={(event: any) => updateSearchModel('types', event.value)}
           ></multi-select>
         </div>
         <div class="ws-deck-search__body--trait input-block">
           <label>Trait</label>
           <multi-select
-            v-model={this.searchModel.traits}
+            modelValue={this.searchModel.traits}
             optionLabel="display"
             optionValue="value"
             options={this.availableTraits}
             filter={true}
+            onChange={(event: any) => updateSearchModel('traits', event.value)}
           ></multi-select>
         </div>
         <div class="ws-deck-search__body--triggers input-block">
           <label>Trigger</label>
           <multi-select
-            v-model={this.searchModel.triggers}
+            modelValue={this.searchModel.triggers}
             optionLabel="display"
             optionValue="value"
             options={this.availableTriggers}
             filter={true}
+            onChange={(event: any) => updateSearchModel('triggers', event.value)}
           ></multi-select>
-        </div>
-        <div class="ws-deck-search__body--level input-block">
-          <label>Level</label>
-          <ws-min-max></ws-min-max>
-        </div>
-        <div class="ws-deck-search__body--cost input-block">
-          <label>Cost</label>
-          <input-text></input-text>
-        </div>
-        <div class="ws-deck-search__body--power input-block">
-          <label>Power</label>
-          <input-text></input-text>
         </div>
         <div class="ws-deck-search__body--soul input-block">
           <label>Souls</label>
           <multi-select
-            v-model={this.searchModel.souls}
+            modelValue={this.searchModel.souls}
+            value={this.searchModel.souls}
             optionLabel="display"
             optionValue="value"
             options={this.availableSouls}
             filter={true}
+            onChange={(event: any) => updateSearchModel('souls', event.value)}
           ></multi-select>
+        </div>
+        <div class="ws-deck-search__body--level input-block">
+          <label>Level</label>
+          <ws-min-max
+            minValue={this.searchModel.minLevel}
+            maxValue={this.searchModel.maxLevel}
+            onUpdate={(event: { min: string; max: string }) => updateMinMax('level', event)}
+          ></ws-min-max>
+        </div>
+        <div class="ws-deck-search__body--cost input-block">
+          <label>Cost</label>
+          <ws-min-max
+            minValue={this.searchModel.minCost}
+            maxValue={this.searchModel.maxCost}
+            onUpdate={(event: { min: string; max: string }) => updateMinMax('cost', event)}
+          ></ws-min-max>
+        </div>
+        <div class="ws-deck-search__body--power input-block">
+          <label>Power</label>
+          <ws-min-max
+            minValue={this.searchModel.minPower}
+            maxValue={this.searchModel.maxPower}
+            onUpdate={(event: { min: string; max: string }) => updateMinMax('power', event)}
+          ></ws-min-max>
         </div>
       </div>
     );
 
     return <card class="ws-deck-search" v-slots={{ content: () => searchArea }}></card>;
-  }
+  },
 });
 </script>
 

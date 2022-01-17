@@ -9,16 +9,24 @@ export default defineConfig({
   server: {
     hmr: {
       protocol: 'ws',
-      host: 'localhost'
-    }
+      host: 'localhost',
+    },
+  },
+  resolve: {
+    alias: {
+      '~': path.resolve(__dirname, 'src'),
+      '~components': path.resolve(__dirname, 'src/components'),
+      '~composables': path.resolve(__dirname, 'src/composables'),
+    },
   },
   build: {
+    sourcemap: true,
+    cssCodeSplit: false,
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
-      name: 'WSDeckBuilder'
+      name: 'WSDeckBuilder',
+      formats: ['es', 'cjs'],
     },
-    outDir: './public',
-    watch: {},
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
       // into your library
@@ -27,9 +35,9 @@ export default defineConfig({
         // Provide global variables to use in the UMD build
         // for externalized deps
         globals: {
-          vue: 'Vue'
-        }
-      }
-    }
-  }
+          vue: 'Vue',
+        },
+      },
+    },
+  },
 });

@@ -1,11 +1,12 @@
 import * as components from './components';
+import { useDeckList, useSearch } from './composables';
 import PrimeVue from 'primevue/config';
 
 import 'primevue/resources/themes/luna-green/theme.css';
 import 'primevue/resources/primevue.min.css';
 import 'primeicons/primeicons.css';
 
-const ComponentLibrary = {
+const WsDeckBuilder = {
   // @ts-ignore
   install(Vue, options = {}) {
     Vue.use(PrimeVue);
@@ -19,7 +20,7 @@ const ComponentLibrary = {
 
       Vue.component(component.name, component);
     }
-  }
+  },
 };
 
-export default ComponentLibrary;
+export { WsDeckBuilder, useDeckList, useSearch };

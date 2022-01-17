@@ -1,0 +1,11 @@
+{
+  "soul": "ws_soul2.png",
+  "bounce": "ws_bounce.png",
+  "shot": "ws_shot.png",
+  "treasure": "ws_treasure.png",
+  "salvage": "ws_salvage.png",
+  "draw": "ws_draw.png",
+  "gate": "ws_gate.jpg",
+  "door": "ws_gate.jpg",
+  "stock": "ws_stock.png"
+}

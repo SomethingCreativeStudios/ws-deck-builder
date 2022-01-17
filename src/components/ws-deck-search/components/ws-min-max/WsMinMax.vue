@@ -9,22 +9,34 @@ export default defineComponent({
   props: {
     minValue: {
       type: String,
-      default: ''
+      default: '',
     },
     maxValue: {
       type: String,
-      default: ''
-    }
+      default: '',
+    },
   },
   setup() {},
   render() {
     return (
       <div class="ws-min-max">
-        <input-text class="ws-min-max--input ws-min-max__min" placeholder="min" type="number"></input-text>
-        <input-text class="ws-min-max--input ws-min-max__max" placeholder="max" type="number"></input-text>
+        <input-text
+          class="ws-min-max--input ws-min-max__min"
+          value={this.minValue}
+          placeholder="min"
+          type="number"
+          onInput={(event: any) => this.$emit('update', { min: event.target.value, max: this.maxValue })}
+        ></input-text>
+        <input-text
+          class="ws-min-max--input ws-min-max__max"
+          value={this.maxValue}
+          placeholder="max"
+          type="number"
+          onInput={(event: any) => this.$emit('update', { min: this.minValue, max: event.target.value })}
+        ></input-text>
       </div>
     );
-  }
+  },
 });
 </script>
 
